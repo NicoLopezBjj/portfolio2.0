@@ -1,0 +1,17 @@
+.marronLetra{
+    color:#A4581B;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.cuadrado {
+    background-color: #A4581B;
+    padding: 0.2rem 0.8rem;
+    font-size: 2rem;
+    color: white;
+    border-radius: 10%;
+    margin-right: 0.2rem;
+}
+

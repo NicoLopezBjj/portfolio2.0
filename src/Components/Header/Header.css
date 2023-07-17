@@ -1,0 +1,33 @@
+.menu-flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav{
+    background-color: #A4581B !important;
+}
+
+
+a:hover {
+    text-decoration: underline;
+    transition: 0.8s;
+}
+
+.marron{
+    background-color: #A4581B !important;
+    opacity: 0.99;
+}
+
+.white{
+    color: white !important;
+}
+
+.margin{
+    align-items: center;
+    
+}
+    

@@ -1,0 +1,25 @@
+.color{
+    background-color: black !important;
+}
+
+.height{
+    height: 1080px;
+}
+
+.empujar{
+    margin-top: 15rem;
+}
+
+.fondo{
+   color: #F4F4F4 !important;
+}
+
+button:hover {
+    transform: scale(1.02);
+    transition: 0.5s;
+}
+
+.gris{
+    color: #696466;
+    letter-spacing: 0.2rem;
+}

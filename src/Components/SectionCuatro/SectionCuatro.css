@@ -1,0 +1,19 @@
+.botonCorazon{
+    border: none;
+    background-color: transparent;
+    
+}
+
+.tamaño{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.botonCorazon:hover{
+    transform: scale(1.5);
+}
+
+.imgHover:hover {
+    opacity: 0.5;
+    transform: scale(1.1);
+}

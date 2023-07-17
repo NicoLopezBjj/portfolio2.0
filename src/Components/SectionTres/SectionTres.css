@@ -1,0 +1,30 @@
+.fondo{
+    background-color: #f9f9f9 !important;
+}
+
+.otroFondo{
+    background-color: #f5f3f3 !important;
+}
+
+.titleBlack{
+    color: #444448;
+}
+
+.marronDos{
+    color:#A4581B;
+    letter-spacing: 0.2rem;
+}
+
+.colorGris {
+    color: #696466;
+}
+
+.titleBrown{
+    color: #A4581B;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.size{
+    font-size: 2.5rem;
+}

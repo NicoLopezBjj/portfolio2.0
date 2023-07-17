@@ -1,0 +1,35 @@
+.fondoMarron{
+    background-color: #A4581B;
+}
+
+.tituloEscribi{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 0.2rem;
+}
+
+.center{
+    align-items: center;
+    text-align: center;
+}
+
+
+.otherBrown{
+    background-color: #bd651c;
+    border-radius: 10%;
+    border: none;
+}
+
+.none{
+    border: none;
+}
+
+.contenedorInput{
+    width: 42rem !important;
+}
+
+.tercerInput{
+    height: 10rem;
+}
