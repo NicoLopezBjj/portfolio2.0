@@ -1,4 +1,5 @@
 import React from 'react';
+import { Iconos } from '../Iconos/Iconos';
 
 
 const Header = () => {
@@ -18,11 +19,10 @@ const Header = () => {
                     <a className="nav-link" href="#habilidades">Habilidades</a>
                     <a className="nav-link" href="#contactame">Contactame</a>
                 </div>
-                <div className='d-flex justify-content-end'>
-                    <p>ig</p>
-                    <p>likn</p>
-                </div>
             </div>
+                <div className='d-flex justify-content-end'>
+                    <Iconos />
+                </div>
         </div>
     </nav>
         

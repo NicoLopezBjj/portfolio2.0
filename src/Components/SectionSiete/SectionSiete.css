@@ -22,6 +22,12 @@
     border: none;
 }
 
+.otherBrown:hover{
+    background-color: white;
+    color: #bd651c;
+    font-weight: bold;
+}
+
 .none{
     border: none;
 }

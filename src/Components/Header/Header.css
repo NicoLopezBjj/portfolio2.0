@@ -5,6 +5,7 @@
 
 a {
     text-decoration: none;
+    padding:0 0.5rem;
 }
 
 nav{
@@ -32,3 +33,6 @@ a:hover {
     
 }
     
+.black{
+    color: #000000;
+}
