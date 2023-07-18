@@ -39,7 +39,7 @@ const incrementarContador2 = (index) => {
             </div>
             <div className='row mt-5'>
                 <div className='col-12 col-md-4'>
-                    <a href="https://nicolopezbjj.github.io/TercerTP/"><img className='img-fluid imgHover' src={image1} alt="" /></a>
+                    <a href="https://nicolopezbjj.github.io/TercerTP/" target="_blank"><img className='img-fluid imgHover' src={image1} alt="" /></a>
                     <div className='d-flex justify-content-between mt-3'>
                         <p className='bold'>Buscador de casas</p>
                         <div className='d-flex me-4'>
@@ -53,7 +53,7 @@ const incrementarContador2 = (index) => {
                 </div>
                 </div>
                 <div className='col-12 col-md-4'>
-                    <a href="https://nicolopezbjj.github.io/TercerTP/" ><img className='img-fluid imgHover' src={image2} alt="" /></a>
+                    <a href="https://nicolopezbjj.github.io/TercerTP/" target="_blank" ><img className='img-fluid imgHover' src={image2} alt="" /></a>
                      <div className='d-flex justify-content-between mt-3'>
                         <p className='bold'>Ventas</p>
                         <div className="d-flex">
@@ -67,7 +67,7 @@ const incrementarContador2 = (index) => {
                     </div>
                 </div>
                 <div className='col-12 col-md-4'>
-                    <a href="https://nicolopezbjj.github.io/TercerTP/"><img className='img-fluid imgHover'  src={image3} alt="" /></a>
+                    <a href="https://nicolopezbjj.github.io/TercerTP/" target="_blank"><img className='img-fluid imgHover'  src={image3} alt="" /></a>
                     <div className='d-flex justify-content-between mt-3'>
                         <p className='bold'>Duplex</p>
                         <div className="d-flex">

@@ -99,22 +99,22 @@ const SectionQuinta = () => {
                     <div className='d-flex justify-content-center align-items-center text-align-center mt-5'>
                         <div className='mx-5'>
                             <div className='d-flex flex-column '> 
-                                <div className='circulo' style={{"--porcentaje": 99}}>
+                                <div className='circulo' >
                                     <svg width="150" height="150">
                                         <circle r="70" cx="50%" cy="50%" />
-                                        <circle r="70" cx="50%" cy="50%"  />
+                                        <circle r="70" cx="50%" cy="50%" className='porcentajeUno' />
                                     </svg>
-                                    <span>99%</span>
+                                    <span>95%</span>
                                 </div>
                                 <div>
                                     <p className='d-flex justify-content-center align-items-center  mt-2 colorGris'>Trabajo en equipo</p>
                                 </div>
                             </div>
                             <div className=''>
-                                <div className='circulo' style={{"--porcentaje": 82}}>
+                                <div className='circulo'>
                                     <svg width="150" height="150">
                                     <circle r="70" cx="50%" cy="50%"  />
-                                    <circle r="70" cx="50%" cy="50%" />
+                                    <circle r="70" cx="50%" cy="50%" className='porcentajeDos' />
                                     </svg>
                                     <span>82%</span>
                                 </div>
@@ -125,22 +125,22 @@ const SectionQuinta = () => {
                         </div>
                         <div>
                             <div>
-                                <div className='circulo' style={{"--porcentaje": 75}}>
+                                <div className='circulo' >
                                     <svg width="150" height="150">
                                         <circle r="70" cx="50%" cy="50%" />
-                                        <circle r="70" cx="50%" cy="50%"  />
+                                        <circle r="70" cx="50%" cy="50%" className='porcentajeTres' />
                                     </svg>
-                                    <span>75%</span>
+                                    <span>67%</span>
                                 </div>
                                 <div>
                                     <p className='d-flex justify-content-center align-items-center mt-2 colorGris'>Creatividad</p>
                                 </div>
                         </div>
                         <div>
-                            <div className='circulo' style={{"--porcentaje": 86}}>
+                            <div className='circulo' >
                                 <svg width="150" height="150">
                                     <circle r="70" cx="50%" cy="50%"  />
-                                    <circle r="70" cx="50%" cy="50%"  />
+                                    <circle r="70" cx="50%" cy="50%" className='porcentajeCuatro' />
                                 </svg>
                                 <span>86%</span>
                             </div>

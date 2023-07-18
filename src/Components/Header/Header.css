@@ -14,7 +14,8 @@ nav{
 
 a:hover {
     text-decoration: underline;
-    transition: 0.8s;
+    transition: 0.3s;
+    font-weight: bold;
 }
 
 .marron{

@@ -1,6 +1,5 @@
 import React from 'react';
 
-import { Iconos } from '../Iconos/Iconos';
 
 const Header = () => {
     return(
@@ -19,20 +18,14 @@ const Header = () => {
                     <a className="nav-link" href="#habilidades">Habilidades</a>
                     <a className="nav-link" href="#contactame">Contactame</a>
                 </div>
+                <div className='d-flex justify-content-end'>
+                    <p>ig</p>
+                    <p>likn</p>
+                </div>
             </div>
         </div>
     </nav>
         
-        // // <div className="menu-flex pt-3">
-            
-            
-            
-            
-            
-        //     {/* <Logo/>
-        //     <Navbar/>
-        //     <Iconos/> */}
-        // </div>
     )
 }
 

@@ -44,16 +44,32 @@ circle {
     fill: none;
     stroke: #EBEBEC;
     stroke-width: 5px;
-    stroke-dasharray: 100 100;
+    stroke-dasharray: 440;
+    stroke-dashoffset: 440;
     transform-origin: 50%;
     transform: rotate(-90deg);
+    stroke-linecap: round;
 }
 
-circle:nth-child(2) {
+.porcentajeUno{
     stroke: #A4581B;
-    stroke-dasharray: var(--porcentaje) 100;
+    stroke-dashoffset: calc(440 - (440*95) / 100);
 }
 
+.porcentajeDos {
+    stroke: #A4581B;
+    stroke-dashoffset: calc(440 - (440*82) / 100);
+}
+
+.porcentajeTres {
+    stroke: #A4581B;
+    stroke-dashoffset: calc(440 - (440*67) / 100);
+}
+
+.porcentajeCuatro {
+    stroke: #A4581B;
+    stroke-dashoffset: calc(440 - (440*86) / 100);
+}
 .circulo{
     position:relative;
 }
