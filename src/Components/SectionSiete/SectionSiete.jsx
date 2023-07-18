@@ -37,21 +37,31 @@ const form = useRef()
   const sendEmail = (e) => {
     e.preventDefault()
 
-    emailjs.sendForm('service_8wvtw7k', 'template_a2p58cl', form.current, 'wYeIAi51ik6tEcJ2p')
-      .then((result) => {
-          console.log(result.text)
-            setEnviado(true)
-            setNombre("")
-            setEmail("")
-            setAsunto("")
-            setMensaje("")
-            setTimeout (() => {
-                setEnviado(false)
-            },5000)
-      }, (error) => {
-          console.log(error.text)
-      });
-  };
+     if (!email.includes("@")) {
+        alert("Por favor ingresa un email válido con el símbolo @.");
+        return;
+    }
+
+    if (nombre && email && asunto && mensaje) {
+        emailjs.sendForm('service_8wvtw7k', 'template_a2p58cl', form.current, 'wYeIAi51ik6tEcJ2p')
+            .then((result) => {
+                console.log(result.text)
+                setEnviado(true)
+                setNombre("")
+                setEmail("")
+                setAsunto("")
+                setMensaje("")
+                setTimeout(() => {
+                    setEnviado(false)
+                }, 5000);
+            })
+            .catch((error) => {
+                console.log(error.text)
+            })
+    } else {
+        alert("Por favor completa todos los campos antes de enviar el formulario.")
+    }
+}
 
     return(
         <section className='fondoMarron mt-5'>
