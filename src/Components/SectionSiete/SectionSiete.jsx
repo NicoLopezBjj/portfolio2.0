@@ -59,7 +59,7 @@ const form = useRef()
                 <div className=''>
                     <h1 className='tituloEscribi'>Escribi tu mensaje</h1>
                 </div>
-                {enviado && <div className='alert alert-success mt-3' role="alert">
+                {enviado && <div className='alert alert-info mt-3 d-flex justify-content-center' style={{ textAlign: "center" }} role="alert">
                             Mensaje enviado correctamente.
                         </div>}
                 <form ref={form} onSubmit={sendEmail} className="center">
