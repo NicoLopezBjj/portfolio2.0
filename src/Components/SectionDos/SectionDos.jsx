@@ -5,7 +5,7 @@ const SectionDos = () => {
         <div id="resumen" className="px-5 pt-4 ">
             <h2 className='titleBrown'>Resumen sobre mi</h2>
             <hr />
-            <div className="d-flex">
+            <div className="d-flex flex-md-row flex-sm-column ">
                 <div>
                     <p className='colorGris'><span className='cuadrado'>S</span>oy profesor de Brazilian Jiu Jitsu y facilitador de Acroyoga, formado en la escuela FLAY(Formacion Latinoamericana de Acroyoga). Coordino, junto a un grupo de amigas, un espacio autogestivo cultural,de acrobacias y movimiento corporal en la ciudad de Quilmes Oeste, Buenos Aires. Mi pasion por las artes marciales y el movimiento me dieron una gran curiosidad y motivacion para seguir estudiando y sumando habilidades en mi vida. Y acompañar a otros/as a descubrirlas.</p>
                     <h2 className='titleBlack'>Mi educacion</h2>

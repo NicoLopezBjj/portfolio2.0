@@ -8,6 +8,7 @@ const SectionSiete = () => {
     const [email,setEmail] = useState("")
     const [asunto,setAsunto] = useState("")
     const [mensaje,setMensaje] = useState("")
+    const [enviado, setEnviado] = useState(false)
 
 function actualizaNombre(e){
     setNombre(e.target.value)
@@ -31,16 +32,24 @@ function enviarDatos(event){
 event.preventDefault()
 }
 
-const form = useRef();
+const form = useRef()
 
   const sendEmail = (e) => {
-    e.preventDefault();
+    e.preventDefault()
 
     emailjs.sendForm('service_8wvtw7k', 'template_a2p58cl', form.current, 'wYeIAi51ik6tEcJ2p')
       .then((result) => {
-          console.log(result.text);
+          console.log(result.text)
+            setEnviado(true)
+            setNombre("")
+            setEmail("")
+            setAsunto("")
+            setMensaje("")
+            setTimeout (() => {
+                setEnviado(false)
+            },5000)
       }, (error) => {
-          console.log(error.text);
+          console.log(error.text)
       });
   };
 
@@ -50,6 +59,9 @@ const form = useRef();
                 <div className=''>
                     <h1 className='tituloEscribi'>Escribi tu mensaje</h1>
                 </div>
+                {enviado && <div className='alert alert-success mt-3' role="alert">
+                            Mensaje enviado correctamente.
+                        </div>}
                 <form ref={form} onSubmit={sendEmail} className="center">
                     <div className="mt-1 d-flex justify-content-center w-100">
                         <input className="me-1 none ps-2" type="text" value={nombre} onChange={actualizaNombre} name="user_name" placeholder="Tu nombre"/>
@@ -62,9 +74,11 @@ const form = useRef();
                         <textarea className="mt-1 none ps-2 tercerInput" placeholder="Mensaje" name="message" value={mensaje} onChange={actualizaMensaje} ></textarea>
                     </div>
                 </form>
+                
             <div className='center'>
                 <button className="otherBrown p-1 mt-2" onClick={sendEmail}>Enviar mensaje</button>
             </div>
+            
         </div>
         </section>
     )  

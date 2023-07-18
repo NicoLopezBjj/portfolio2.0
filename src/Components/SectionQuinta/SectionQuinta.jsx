@@ -50,7 +50,7 @@ const SectionQuinta = () => {
                             </div>
                         </div>
                         <div className='mt-3'>
-                            <h2>Otros</h2>
+                            <h2 className='mt-1'>Otros</h2>
                             <p className='colorGris'>Conocimientos que aportan a la hora de programar</p>
                         <div className='d-flex'>
                             <div>
