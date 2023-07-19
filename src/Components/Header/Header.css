@@ -35,3 +35,9 @@ nav{
 .black{
     color: #000000;
 }
+
+.maxAncho{
+    width: 120px;
+    text-align: center;
+    white-space: nowrap;
+}

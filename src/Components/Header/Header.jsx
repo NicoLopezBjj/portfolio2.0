@@ -21,12 +21,12 @@ const Header = () => {
             </button>
             <div className={`collapse navbar-collapse ${isMenuOpen ? 'show' : ''}`} id="navbarNavAltMarkup">
                 <div className="navbar-nav margin">
-                    <a className="nav-link active" aria-current="page" href="#inicio">Inicio</a>
-                    <a className="nav-link" href="#resumen">Resumen sobre mi</a>
-                    <a className="nav-link" href="#logros">Logros</a>
-                    <a className="nav-link" href="#lastJob">Ultimo trabajo</a>
-                    <a className="nav-link" href="#habilidades">Habilidades</a>
-                    <a className="nav-link" href="#contactame">Contactame</a>
+                    <a className="nav-link active mx-2 maxAncho" aria-current="page" href="#inicio">Inicio</a>
+                    <a className="nav-link mx-2 maxAncho" href="#resumen">Resumen sobre mi</a>
+                    <a className="nav-link mx-2 maxAncho" href="#logros">Logros</a>
+                    <a className="nav-link mx-2 maxAncho" href="#lastJob">Ultimo trabajo</a>
+                    <a className="nav-link mx-2 maxAncho" href="#habilidades">Habilidades</a>
+                    <a className="nav-link mx-2 maxAncho" href="#contactame">Contactame</a>
                 </div>
             </div>
                 <div className={`justify-content-end ${isMenuOpen ? "d-none" : "d-flex"}`}>

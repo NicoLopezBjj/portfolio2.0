@@ -19,30 +19,30 @@ const SectionQuinta = () => {
                         <p className='colorGris'>Conocimientos sobre lenguajes de programacion</p>
                     </div>
                     <div>
-                        <div>
+                        <div className='colorGris'>
                             <div className='d-flex justify-content-between'>
-                                <p className='fondoGris'>HTML</p>
+                                <p>HTML</p>
                                 <p className='fondoGris'>80%</p>
                             </div>
                             <div className='track'>
                                 <div className='dos'></div>
                             </div>
                             <div className='d-flex justify-content-between mt-2'>
-                                <p className='fondoGris'>CSS</p>
+                                <p>CSS</p>
                                 <p className='fondoGris'>75%</p>
                             </div>
                             <div className='track'>
                                 <div className='dos tres'></div>
                             </div>
                             <div className='d-flex justify-content-between mt-2'>
-                                <p className='fondoGris'>JavaScript</p>
+                                <p>JavaScript</p>
                                 <p className='fondoGris'>65%</p>
                             </div>
                             <div className='track'>
                                 <div className='dos cuatro'></div>
                             </div>
                             <div className='d-flex justify-content-between mt-2'>
-                                <p className='fondoGris'>React</p>
+                                <p>React</p>
                                 <p className='fondoGris'>60%</p>
                             </div>
                             <div className='track'>

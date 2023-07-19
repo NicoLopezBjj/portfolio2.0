@@ -64,9 +64,9 @@ const form = useRef()
 }
 
     return(
-        <section className='fondoMarron'>
+        <section className='fondoMarron pb-4'>
             <div>
-                <div className='p-2'>
+                <div className='p-4'>
                     <h1 className='tituloEscribi'>Escribi tu mensaje</h1>
                 </div>
                 {enviado && <div className='alert alert-info mt-3 d-flex justify-content-center' style={{ textAlign: "center" }} role="alert">
@@ -88,7 +88,7 @@ const form = useRef()
             </div>            
                 
             <div className='center'>
-                <button className="otherBrown p-1 mt-2" onClick={sendEmail}>Enviar mensaje</button>
+                <button className="otherBrown p-1 mt-2 border-0" onClick={sendEmail}>Enviar mensaje</button>
             </div>
             
         </div>

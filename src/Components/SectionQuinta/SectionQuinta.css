@@ -45,7 +45,7 @@ circle {
     stroke: #d5d5d7;
     stroke-width: 5px;
     stroke-dasharray: 440;
-    stroke-dashoffset: 440;
+    stroke-dashoffset: 590;
     transform-origin: 50%;
     transform: rotate(-90deg);
     stroke-linecap: round;
