@@ -22,7 +22,7 @@ button:hover {
 
 @media(min-width:760px){
     .fontSize{
-        font-size: 5rem;
+        font-size: 4rem;
     }
     .fontSizeB{
         font-size: 2rem;
