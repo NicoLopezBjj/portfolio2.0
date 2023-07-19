@@ -25,9 +25,9 @@ const incrementarContador2 = (index) => {
   setContador2(newContador)
 }
  
-    const image1 = "tpfinal1.png"
-    const image2 = "tpfinal2.png"
-    const image3 = "tpfinal3.png"
+    const image1 = "TpReact/tpfinal1.png"
+    const image2 = "TpReact/tpfinal2.png"
+    const image3 = "TpReact/tpfinal3.png"
    
     return(
      
