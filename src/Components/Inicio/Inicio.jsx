@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Inicio.css"
 const Inicio = () => {
-    const imageSrc="src/assets/mifotosinfondo.png"
+    const imageSrc="mifotosinfondo.png"
     return (
         <>
         <div className="d-flex justify-content-between height fondo">
@@ -22,4 +22,3 @@ const Inicio = () => {
 
 export { Inicio }
 
-// redireccionar el boton
