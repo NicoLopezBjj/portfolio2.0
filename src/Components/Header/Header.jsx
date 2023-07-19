@@ -6,7 +6,7 @@ const Header = () => {
     return(
     <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top marron ">
         <div className="container-fluid justify-content-evenly">
-            <a className="navbar-brand mx-5" href="#">NLDev</a>
+            <a className="navbar-brand mx-5">NLDev</a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-      target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
             </button>
