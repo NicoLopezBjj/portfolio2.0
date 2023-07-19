@@ -31,8 +31,8 @@ const incrementarContador2 = (index) => {
    
     return(
      
-        <div id="lastJob" className='px-5 mt-5 mb-5 container-fluid'>
-            <div>
+        <div id="lastJob" className='px-5 mt-5 mb-5 container-fluid  text-lg-start'>
+            <div className='text-center'>
                 <h2 className='titleBrown mt-3'>Mi ultimo trabajo</h2>
                 <hr />
                 <p className='colorGris mt-3'>Es un diseño web sobre un establecimiento inmobiliario, que se encarga de conseguirte la casa de tus sueños.</p>
@@ -42,7 +42,7 @@ const incrementarContador2 = (index) => {
                     <a href="https://nicolopezbjj.github.io/TercerTP/" target="_blank"><img className='img-fluid imgHover' src={image1} alt="" /></a>
                     <div className='d-flex justify-content-between mt-3'>
                         <p className='bold'>Buscador de casas</p>
-                        <div className='d-flex me-4'>
+                        <div className='d-flex me-lg-4'>
                             <button onClick={()=> incrementarContador(0)} className='botonCorazon'><svg className='marronLetra tamaño mb-3' xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" 
                             viewBox="0 0 16 16">
                             <path

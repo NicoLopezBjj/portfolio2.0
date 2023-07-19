@@ -32,10 +32,16 @@
     border: none;
 }
 
-.contenedorInput{
-    width: 42rem !important;
+.formulario{
+    max-width: 42rem !important;
 }
 
 .tercerInput{
     height: 10rem;
+}
+
+@media(max-width:760px){
+    .formulario{
+        width: 20rem;
+    }
 }

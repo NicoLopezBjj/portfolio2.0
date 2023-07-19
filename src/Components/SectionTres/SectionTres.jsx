@@ -2,11 +2,11 @@ import React from 'react';
 import "./SectionTres.css"
 const SectionTres = () => {
     return(
-        <section id="logros" className='text-center my-5 py-5'>
+        <section id="logros" className='text-center py-2 my-md-5 py-md-5'>
             <div>
-                <h2 className='titleBrown otroFondo py-5'>Mis logros</h2>
+                <h2 className='titleBrown otroFondo py-5 mb-0'>Mis logros</h2>
             </div>
-            <div className='d-flex justify-content-center fondo py-5'>
+            <div className='d-flex justify-content-center fondo py-5 px-3'>
                 <div className='py-5 me-5'>
                     <h2 className='titleBlack bold size'>5</h2>
                     <p className='marronDos bold'>proyectos</p>
