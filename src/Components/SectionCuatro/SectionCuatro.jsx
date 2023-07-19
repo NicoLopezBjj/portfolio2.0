@@ -25,14 +25,14 @@ const incrementarContador2 = (index) => {
   setContador2(newContador)
 }
  
-    const image1 = "public/assets/tpfinal1.png"
-    const image2 = "public/assets/tpfinal2.png"
-    const image3 = "public/assets/tpfinal3.png"
+    const image1 = "/tpfinal1.png"
+    const image2 = "/tpfinal2.png"
+    const image3 = "/tpfinal3.png"
    
     return(
      
-        <div id="lastJob" className='px-5 mt-5 mb-5 container-fluid  text-lg-start'>
-            <div className='text-center'>
+        <div id="lastJob" className='px-5 mt-5 mb-5 container-fluid '>
+            <div className='text-center text-lg-start'>
                 <h2 className='titleBrown mt-3'>Mi ultimo trabajo</h2>
                 <hr />
                 <p className='colorGris mt-3'>Es un diseño web sobre un establecimiento inmobiliario, que se encarga de conseguirte la casa de tus sueños.</p>
