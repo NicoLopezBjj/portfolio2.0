@@ -1,7 +1,7 @@
 import React from 'react';
 import "./Inicio.css"
 const Inicio = () => {
-    const imageSrc="./TpReact/src/assets/mifotosinfondo.png"
+    const imageSrc="public/assets/mifotosinfondo.png"
     return (
         <>
         <div className="d-flex justify-content-between height fondo">
