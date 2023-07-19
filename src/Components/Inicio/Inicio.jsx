@@ -1,7 +1,9 @@
 import React from 'react';
 import "./Inicio.css"
+import imageSrc from "/mifotosinfondo.png"
+
 const Inicio = () => {
-    const imageSrc="./mifotosinfondo.png"
+    
     return (
         <>
         <div className="d-flex justify-content-between height fondo">
