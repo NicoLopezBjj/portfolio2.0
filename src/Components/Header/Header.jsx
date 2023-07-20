@@ -9,7 +9,9 @@ const Header = () => {
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen)
     }
-
+      const handleLinkClick = () => {
+        setIsMenuOpen(false)
+    }
 
     return(
     <nav className="navbar navbar-expand-lg bg-body-tertiary fixed-top marron ">
@@ -20,13 +22,13 @@ const Header = () => {
             <span className="navbar-toggler-icon"></span>
             </button>
             <div className={`collapse navbar-collapse ${isMenuOpen ? 'show' : ''}`} id="navbarNavAltMarkup">
-                <div className="navbar-nav margin">
-                    <a className="nav-link active mx-2 maxAncho" aria-current="page" href="#inicio">Inicio</a>
-                    <a className="nav-link mx-2 maxAncho" href="#resumen">Resumen sobre mi</a>
-                    <a className="nav-link mx-2 maxAncho" href="#logros">Logros</a>
-                    <a className="nav-link mx-2 maxAncho" href="#lastJob">Ultimo trabajo</a>
-                    <a className="nav-link mx-2 maxAncho" href="#habilidades">Habilidades</a>
-                    <a className="nav-link mx-2 maxAncho" href="#contactame">Contactame</a>
+                <div className="navbar-nav margin px-1">
+                    <a className="nav-link active " aria-current="page" href="#inicio" onClick={handleLinkClick} >Inicio</a>
+                    <a className="nav-link " href="#resumen" onClick={handleLinkClick}>Resumen sobre mi</a>
+                    <a className="nav-link " href="#logros" onClick={handleLinkClick}>Logros</a>
+                    <a className="nav-link " href="#lastJob" onClick={handleLinkClick}>Ultimo trabajo</a>
+                    <a className="nav-link" href="#habilidades" onClick={handleLinkClick}>Habilidades</a>
+                    <a className="nav-link " href="#contactame" onClick={handleLinkClick}>Contactame</a>
                 </div>
             </div>
                 <div className={`justify-content-end ${isMenuOpen ? "d-none" : "d-flex"}`}>

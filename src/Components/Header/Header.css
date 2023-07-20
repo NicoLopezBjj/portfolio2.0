@@ -36,8 +36,10 @@ nav{
     color: #000000;
 }
 
-.maxAncho{
-    width: 120px;
+.minAncho{
+    min-width: 100px;
+    max-width: 130px;
     text-align: center;
     white-space: nowrap;
 }
+

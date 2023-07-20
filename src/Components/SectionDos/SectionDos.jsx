@@ -2,7 +2,7 @@ import React from 'react';
 import "./SectionDos.css"
 const SectionDos = () => {
     return(
-        <div id="resumen" className="px-5 pt-4 ">
+        <div id="resumen" className="px-5 pt-4 mt-md-5">
             <h2 className='titleBrown'>Resumen sobre mi</h2>
             <hr />
             <div className="d-flex flex-md-row flex-column text-justify  ">
