@@ -49,10 +49,10 @@ const SectionQuinta = () => {
                                 <div className='dos cinco'></div>
                             </div>
                         </div>
-                        <div className='mt-3'>
-                            <h2 className='mt-1'>Otros</h2>
+                        <div className='mt-4'>
+                            <h2 className='mt-2'>Otros</h2>
                             <p className='colorGris'>Conocimientos que aportan a la hora de programar</p>
-                        <div className='d-flex justify-content-center'>
+                        <div className='d-md-flex justify-content-center'>
                             <div className='d-flex flex-column me-lg-5 pe-lg-5'>
                                 <div className='d-flex me-md-2'>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" className="bi bi-check-lg me-2" viewBox="0 0 16 16">
@@ -93,7 +93,7 @@ const SectionQuinta = () => {
                 </div>
                 <div>
                     <div className='ms-lg-5'>
-                        <h2>Comunicacion</h2>
+                        <h2 className=''>Comunicacion</h2>
                         <p className='colorGris'>Algunas aptitudes sociales y laborales que considero importante a la hora de trabajar, ya sea con un cliente o en un equipo de trabajo para ser parte y tambien para liderar y para formar una empresa.</p>
                     </div>
                     <div className='d-flex justify-content-between justify-content-md-evenly align-items-center text-align-center mt-5'>
