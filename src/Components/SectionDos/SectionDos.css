@@ -18,3 +18,8 @@
 .text-justify{
     text-align: justify;
 }
+
+.imgCertificado{
+    height: 25rem;
+    width: 40rem;
+}
