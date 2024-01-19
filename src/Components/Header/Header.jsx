@@ -22,8 +22,8 @@ const Header = () => {
             <span className="navbar-toggler-icon"></span>
             </button>
             <div className={`collapse navbar-collapse ${isMenuOpen ? 'show' : ''}`} id="navbarNavAltMarkup">
-                <div className="navbar-nav margin px-1">
-                    <a className="nav-link active " aria-current="page" href="#inicio" onClick={handleLinkClick} >Inicio</a>
+                <div className="navbar-nav margin px-1 overFlow">
+                    <a className="nav-link " aria-current="page" href="#inicio" onClick={handleLinkClick} >Inicio</a>
                     <a className="nav-link " href="#resumen" onClick={handleLinkClick}>Sobre mi</a>
                     <a className="nav-link " href="#lastJob" onClick={handleLinkClick}>Proyectos</a>
                     <a className="nav-link " href="#contactame" onClick={handleLinkClick}>Contacto</a>

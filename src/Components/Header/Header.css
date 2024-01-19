@@ -15,8 +15,8 @@ nav{
 
 .nav-link:hover {
     text-decoration: underline;
+    text-underline-offset: 0.3em;
     transition: 0.3s;
-    font-weight: bold;
 }
 
 .marron{

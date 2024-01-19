@@ -22,6 +22,7 @@ const SectionDos = () => {
                 </div>
             </div>
                     {/* <img className='imgCertificado' src={imageCertificado} alt="" /> */}
+                    
         </div>
     )
 }

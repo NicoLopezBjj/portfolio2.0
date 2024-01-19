@@ -11,8 +11,9 @@
 }
 
 button:hover {
-    transform: scale(1.02);
-    transition: 0.5s;
+    transform: scale(1.05);
+    transition: 0.1s;
+    color: #A4581B;
 }
 
 .gris{
