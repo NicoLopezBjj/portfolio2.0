@@ -20,6 +20,12 @@ button:hover {
     letter-spacing: 0.2rem;
 }
 
+.titleBrown{
+    color: #A4581B;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
 @media(min-width:760px){
     .fontSize{
         font-size: 4rem;

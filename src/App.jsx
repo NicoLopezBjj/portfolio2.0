@@ -5,9 +5,7 @@ import "./Components/Header/Header.css"
 import { Header } from './Components/Header/Header'
 import { SectionDos } from './Components/SectionDos/SectionDos'
 import { Inicio } from './Components/Inicio/Inicio'
-import { SectionTres } from './Components/SectionTres/SectionTres'
 import { SectionCuatro } from './Components/SectionCuatro/SectionCuatro'
-import { SectionQuinta } from './Components/SectionQuinta/SectionQuinta'
 import { SectionSeis } from './Components/SectionSeis/SectionSeis'
 import { SectionSiete } from './Components/SectionSiete/SectionSiete'
 
@@ -19,9 +17,7 @@ function App() {
       <Header />
       <Inicio/>
       <SectionDos/>
-      <SectionTres/>
       <SectionCuatro/>
-      <SectionQuinta/>
       <SectionSeis/>
       <SectionSiete/>
     </>

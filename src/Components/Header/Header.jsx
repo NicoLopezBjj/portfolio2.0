@@ -25,9 +25,7 @@ const Header = () => {
                 <div className="navbar-nav margin px-1">
                     <a className="nav-link active " aria-current="page" href="#inicio" onClick={handleLinkClick} >Inicio</a>
                     <a className="nav-link " href="#resumen" onClick={handleLinkClick}>Resumen sobre mi</a>
-                    <a className="nav-link " href="#logros" onClick={handleLinkClick}>Logros</a>
                     <a className="nav-link " href="#lastJob" onClick={handleLinkClick}>Ultimo trabajo</a>
-                    <a className="nav-link" href="#habilidades" onClick={handleLinkClick}>Habilidades</a>
                     <a className="nav-link " href="#contactame" onClick={handleLinkClick}>Contactame</a>
                 </div>
             </div>
