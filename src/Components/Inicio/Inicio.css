@@ -26,6 +26,10 @@ button:hover {
     letter-spacing: 0.2rem;
 }
 
+.x-large{
+    font-size: large;
+}
+
 @media(min-width:760px){
     .fontSize{
         font-size: 4rem;

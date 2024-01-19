@@ -12,7 +12,7 @@ const Inicio = () => {
                 <h1 className="empujar titleBrown fontSize mx-4 pb-2">Hola<br/> mi nombre<br/> es Nico Lopez</h1>
                 <p className='gris mx-4 fontSizeB pb-2'>Soy Developer Full Stack <br/> de la Universidad Tecnologica Nacional</p>
                 <div className='d-flex justify-content-between'>
-                    <a href="#resumen"><button className="btn btn-primary color ms-4 border-0 px-4 py-2 mb-2" href="#cv">Ver CV</button></a> 
+                    <a href="#resumen"><button className="btn btn-primary color ms-4 border-0 px-4 py-2 mb-2 x-large" href="#cv">Ver CV</button></a> 
                     <Iconos/>
                 </div>
             </div>
