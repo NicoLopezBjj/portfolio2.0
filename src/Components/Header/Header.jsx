@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { Iconos } from '../Iconos/Iconos';
+
 
 
 const Header = () => {
@@ -24,13 +24,12 @@ const Header = () => {
             <div className={`collapse navbar-collapse ${isMenuOpen ? 'show' : ''}`} id="navbarNavAltMarkup">
                 <div className="navbar-nav margin px-1">
                     <a className="nav-link active " aria-current="page" href="#inicio" onClick={handleLinkClick} >Inicio</a>
-                    <a className="nav-link " href="#resumen" onClick={handleLinkClick}>Resumen sobre mi</a>
-                    <a className="nav-link " href="#lastJob" onClick={handleLinkClick}>Ultimo trabajo</a>
-                    <a className="nav-link " href="#contactame" onClick={handleLinkClick}>Contactame</a>
+                    <a className="nav-link " href="#resumen" onClick={handleLinkClick}>Sobre mi</a>
+                    <a className="nav-link " href="#lastJob" onClick={handleLinkClick}>Proyectos</a>
+                    <a className="nav-link " href="#contactame" onClick={handleLinkClick}>Contacto</a>
                 </div>
             </div>
                 <div className={`justify-content-end ${isMenuOpen ? "d-none" : "d-flex"}`}>
-                    <Iconos/>
                 </div>
         </div>
     </nav>
