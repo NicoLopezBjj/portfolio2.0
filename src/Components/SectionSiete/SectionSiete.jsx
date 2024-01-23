@@ -88,7 +88,7 @@ const form = useRef()
             </div>            
                 
             <div className='center'>
-                <button className="otherBrown p-1 mt-2 border-0" onClick={sendEmail}>Enviar mensaje</button>
+                <button className="otherBrown p-1 mt-2 border-0 btn btn-primary" onClick={sendEmail}>Enviar mensaje</button>
             </div>
             
         </div>

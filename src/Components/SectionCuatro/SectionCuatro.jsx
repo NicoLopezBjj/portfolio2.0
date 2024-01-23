@@ -33,15 +33,15 @@ const incrementarContador2 = (index) => {
      
         <div id="lastJob" className='px-5 mt-5 mb-5 container-fluid '>
             <div className='text-center text-lg-start'>
-                <h2 className='titleBrown mt-3'>Mi ultimo trabajo</h2>
+                <h2 className='titleBrown mt-3'>Proyectos</h2>
                 <hr />
-                <p className='colorGris mt-3'>Es un diseño web sobre un establecimiento inmobiliario, que se encarga de conseguirte la casa de tus sueños.</p>
+                <p className='colorGris mt-3'>Algunos de los trabajos mas importantes que realice</p>
             </div>
             <div className='row mt-5'>
                 <div className='col-12 col-md-4'>
                     <a href="https://nicolopezbjj.github.io/TercerTP/" target="_blank"><img className='img-fluid imgHover' src={image1} alt="" /></a>
                     <div className='d-flex justify-content-between mt-3'>
-                        <p className='bold'>Buscador de casas</p>
+                        <p className='bold'>Ecommerce Shopcart</p>
                         <div className='d-flex me-lg-4'>
                             <button onClick={()=> incrementarContador(0)} className='botonCorazon'><svg className='marronLetra tamaño mb-3' xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" 
                             viewBox="0 0 16 16">
@@ -55,7 +55,7 @@ const incrementarContador2 = (index) => {
                 <div className='col-12 col-md-4'>
                     <a href="https://nicolopezbjj.github.io/TercerTP/" target="_blank" ><img className='img-fluid imgHover' src={image2} alt="" /></a>
                      <div className='d-flex justify-content-between mt-3'>
-                        <p className='bold'>Ventas</p>
+                        <p className='bold'>Movies Hub</p>
                         <div className="d-flex">
                             <button onClick={()=> incrementarContador1(0)} className='botonCorazon'><svg className='marronLetra tamaño mb-3' xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" 
                             viewBox="0 0 16 16">
@@ -69,7 +69,7 @@ const incrementarContador2 = (index) => {
                 <div className='col-12 col-md-4'>
                     <a href="https://nicolopezbjj.github.io/TercerTP/" target="_blank"><img className='img-fluid imgHover'  src={image3} alt="" /></a>
                     <div className='d-flex justify-content-between mt-3'>
-                        <p className='bold'>Duplex</p>
+                        <p className='bold'>Estrategias Passport</p>
                         <div className="d-flex">
                             <button onClick={()=> incrementarContador2(0)} className='botonCorazon'><svg className='marronLetra tamaño mb-3' xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" 
                             viewBox="0 0 16 16">
