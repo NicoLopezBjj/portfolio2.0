@@ -23,3 +23,14 @@
     height: 25rem;
     width: 40rem;
 }
+
+.centrado{
+    margin: 0 auto;
+}
+
+.textoGris{
+    color: #696466;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    font-size: large;
+}
