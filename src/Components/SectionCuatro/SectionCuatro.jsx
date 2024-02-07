@@ -25,13 +25,13 @@ const incrementarContador2 = (index) => {
   setContador2(newContador)
 }
  
-    const image1 = "./tpfinal1.png"
-    const image2 = "./tpfinal2.png"
+    const image1 = "./ShopCart.png"
+    const image2 = "./Pelis-Mern.png"
     const image3 = "./tpfinal3.png"
    
     return(
      
-        <div id="lastJob" className='px-5 mt-5 mb-5 container-fluid '>
+        <div id="lastJob" className='px-5 mt-5 mb-5 container-fluid justify-content-center '>
             <div className='text-center text-lg-start'>
                 <h2 className='titleBrown mt-3'>Proyectos</h2>
                 <hr />
