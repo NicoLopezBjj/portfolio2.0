@@ -3,11 +3,10 @@ import { useState } from 'react'
 import './App.css'
 import "./Components/Header/Header.css"
 import { Header } from './Components/Header/Header'
-import { SectionDos } from './Components/SectionDos/SectionDos'
+import { SobreMi } from './Components/SobreMi/SobreMi'
 import { Inicio } from './Components/Inicio/Inicio'
-import { SectionCuatro } from './Components/SectionCuatro/SectionCuatro'
-import { SectionSeis } from './Components/SectionSeis/SectionSeis'
-import { SectionSiete } from './Components/SectionSiete/SectionSiete'
+import { Proyectos } from './Components/Proyectos/Proyectos'
+import { Contacto } from './Components/Contacto/Contacto'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -16,10 +15,9 @@ function App() {
     <>
       <Header />
       <Inicio/>
-      <SectionDos/>
-      <SectionCuatro/>
-      <SectionSeis/>
-      <SectionSiete/>
+      <SobreMi/>
+      <Proyectos/>
+      <Contacto/>
     </>
   )
 }

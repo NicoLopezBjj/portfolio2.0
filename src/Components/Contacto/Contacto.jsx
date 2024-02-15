@@ -1,8 +1,8 @@
 import React, { useState,useRef } from  'react';
-import "./SectionSiete.css"
+import "./Contacto.css"
 import emailjs from '@emailjs/browser';
 
-const SectionSiete = () => {
+const Contacto = () => {
 
     const [nombre,setNombre] = useState("")
     const [email,setEmail] = useState("")
@@ -96,4 +96,4 @@ const form = useRef()
     )  
 }
 
-export { SectionSiete }
+export { Contacto }

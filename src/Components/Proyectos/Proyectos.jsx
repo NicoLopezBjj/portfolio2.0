@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
-import "./SectionCuatro.css"
+import "./Proyectos.css"
 
-const SectionCuatro = () => {
+
+const Proyectos = () => {
     
     const [contador,setContador]= useState([400])
     const [contador1,setContador1]= useState([317])
@@ -30,7 +31,7 @@ const incrementarContador2 = (index) => {
     const image3 = "./tpfinal3.png"
    
     return(
-     
+        
         <div id="lastJob" className='px-5 mt-5 mb-5 container-fluid justify-content-center '>
             <div className='text-center text-lg-start'>
                 <h2 className='titleBrown mt-3'>Proyectos</h2>
@@ -85,5 +86,5 @@ const incrementarContador2 = (index) => {
     )
 }
 
-export { SectionCuatro }
+export { Proyectos }
 

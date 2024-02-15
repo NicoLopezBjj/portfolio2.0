@@ -1,6 +1,6 @@
 import React from 'react';
-import "./SectionDos.css"
-const SectionDos = () => {
+import "./SobreMi.css"
+const SobreMi = () => {
     const imageCertificado = "./certificado.jpg"
 
     return(
@@ -26,6 +26,6 @@ const SectionDos = () => {
     )
 }
 
-export { SectionDos }
+export { SobreMi }
 
 
