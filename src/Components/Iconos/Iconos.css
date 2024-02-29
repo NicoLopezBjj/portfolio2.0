@@ -1,8 +1,0 @@
-.newIcon{
-    font-size: xx-large;
-}
-
-.iconoHover:hover {
-    transform:rotate(360deg) !important;
-    transition: 1s !important;
-}

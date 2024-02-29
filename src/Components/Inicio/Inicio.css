@@ -37,6 +37,19 @@ button:hover {
     font-size: large;
 }
 
+.newIcon{
+    font-size: xx-large;
+}
+
+.iconoHover{
+    transform-origin: center center;
+}
+
+.iconoHover:hover {
+    transform:scale(1.1);
+    transition: 1s;
+}
+
 @media(min-width:760px){
     .fontSize{
         font-size: 4rem;
