@@ -13,8 +13,6 @@ const SobreMi = () => {
                     Tambien soy profesor de Brazilian Jiu Jitsu y de Acroyoga, formado en la escuela FLAY(Formacion Latinoamericana de Acroyoga). Mi pasion por las artes marciales y el movimiento me impulsaron y motivaron a seguir estudiando y sumando herramientas en mi vida. Y acompañar a otros/as a descubrirlas.</p>
                 </div>
                 <div className='ps-md-4 d-flex flex-column justify-content-center'>
-                    <h2 className='titleBlack'>Mi carrera</h2>
-                    <p className='textoGris'> Hace 8 años practico Jiu Jitsu, soy cinturon Marron, profesor, competidor activo y arbitro profesional. Tambien participe y participo en multiples eventos nacionales de acroyoga. Mi objetivo para este año 2024 es insertarme en el mundo laboral IT para perfeccionarme como programador, ganar experencia y seguir creciendo como profesional.</p>
                     <h2 className='titleBlack'>Mi educacion</h2>
                     <p className='textoGris'><span className='marronLetra bold pad'>Termine la Diplomatura en Programacion Web Full Stack</span> en la Universidad Tecnologica Nacional.</p>
                     <a href=""><button className="btn btn-primary color border-0 px-4 py-2 mb-2 x-large" href="#cv">Ver Certificado</button></a> 

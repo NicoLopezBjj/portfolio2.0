@@ -1,16 +1,13 @@
-.menu-flex{
-    display: flex;
-    justify-content: space-between;
+nav{
+    margin: 0 auto;
+    width: 80%;
 }
 
 .nav-link {
     text-decoration: none;
-    padding:0.1 0.5;
+    padding:1px 1px;
 }
 
-nav{
-    background-color: #A4581B !important;
-}
 
 
 .nav-link:hover {
@@ -43,3 +40,12 @@ nav{
     white-space: nowrap;
 }
 
+.btnChange{
+    border: none;
+    background-color: #e2e2e2;
+}
+
+.btnChange:hover{
+    background-color: #000000;
+    color: white;
+}
