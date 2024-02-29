@@ -1,9 +1,11 @@
 import React from 'react';
 import "./Inicio.css"
 import { Iconos } from '../Iconos/Iconos';
-import imageSrc from "/mifotosinfondo.png"
+
 
 const Inicio = () => {
+
+    const imagePerfil = "/FotoPerfil.jpg"
     
     return (
         <>
@@ -17,7 +19,7 @@ const Inicio = () => {
                 </div>
             </div>
             <div>
-                <img className="h-100 d-none d-lg-block" src={imageSrc} alt="" />
+                <img className="imagePerfil d-none d-lg-block" src={imagePerfil} alt="" />
             </div>
         </div>
         </>

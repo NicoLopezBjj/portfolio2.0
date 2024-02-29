@@ -6,6 +6,12 @@
     height: 100vh;
 }
 
+.imagePerfil{
+    border-radius: 5em;
+    height: 400px;
+    width: 452px;
+}
+
 .fondo{
    color: #F4F4F4 !important;
 }
