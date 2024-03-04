@@ -32,13 +32,13 @@ const incrementarContador2 = (index) => {
    
     return(
         
-        <div id="lastJob" className='px-5 mt-5 mb-5 container-fluid justify-content-center '>
-            <div className='text-center text-lg-start'>
-                <h2 className='titleBrown mt-3'>Proyectos</h2>
+        <div id="lastJob" className='px-5 mt-5 mb-5  justify-content-center '>
+            <div className='text-center '>
+                <h2 className='titleBrown mt-1 '>Proyectos</h2>
                 <hr />
                 <p className='colorGris mt-3'>Algunos de los trabajos mas importantes que realice</p>
             </div>
-            <div className='row mt-5'>
+            <div className='row mt-5 d-flex flex-column'>
                 <div className='col-12 col-md-4'>
                     <a href="https://nicolopezbjj.github.io/TercerTP/" target="_blank"><img className='img-fluid imgHover' src={image1} alt="" /></a>
                     <div className='d-flex justify-content-between mt-3'>
