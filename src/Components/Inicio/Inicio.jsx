@@ -5,7 +5,7 @@ import { Iconos } from '../Iconos/Iconos';
 
 const Inicio = () => {
 
-    const imagePerfil = "/FotoPerfil.jpg"
+    const imagePerfil = "./FotoPerfil.jpg"
     
     return (
         <>
