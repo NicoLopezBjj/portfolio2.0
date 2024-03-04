@@ -1,11 +1,11 @@
 import React from 'react';
 import "./Inicio.css"
-import { Iconos } from '../Iconos/Iconos';
+
 
 
 const Inicio = () => {
 
-    const imagePerfil = "./FotoPerfil.jpg"
+    const imagePerfil = ".././FotoPerfil.jpg"
     
     return (
         <>
