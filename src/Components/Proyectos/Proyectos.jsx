@@ -36,7 +36,7 @@ const incrementarContador2 = (index) => {
             <div className='text-center '>
                 <h2 className='titleBrown mt-1 '>Proyectos</h2>
                 <hr />
-                <p className='colorGris mt-3'>Algunos de los trabajos mas importantes que realice</p>
+                <p className='colorGris mt-3'>Trabajos individuales y en equipo</p>
             </div>
             <div className='row mt-5 d-flex flex-column'>
                 <div className='col-12 col-md-4'>
