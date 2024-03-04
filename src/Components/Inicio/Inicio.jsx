@@ -13,7 +13,7 @@ const Inicio = () => {
             <div id="inicio" className=' d-flex flex-column justify-content-center'>
                 <h1 className="empujar titleBrown  pb-2">Nicolas Lopez</h1>
                 <p className='gris mx-4 strong pb-2'>Desarrollador Full Stack</p>
-                <div className='d-flex justify-content-between ms-lg-4'>
+                <div className='d-flex justify-content-between align-items-center ms-lg-4'>
                     <a href="#resumen"><button className="btn btn-primary color  border-0 px-3 py-2  x-large" href="#cv">Ver CV</button></a> 
                     <a href="https://github.com/NicoLopezBjj" target='_blank' className='iconoHover'>
                         <i className="bi bi-github black  ms-3 me-lg-4 mx-2 newIcon"></i>    
@@ -26,8 +26,8 @@ const Inicio = () => {
                     </a> 
                 </div>
             </div>
-            <div>
-                <img className="imagePerfil d-flex align-items-center" src={imagePerfil} alt="" />
+            <div className='d-flex justify-content-center text-center align-items-center'>
+                <img className="imagePerfil " src={imagePerfil} alt="" />
             </div>
         </div>
         </>

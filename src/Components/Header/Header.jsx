@@ -26,7 +26,7 @@ const Header = () => {
                      <a className="nav-link mx-2" href="#lastJob" onClick={handleLinkClick}>Proyectos</a>
                      <a className="nav-link mx-2" href="#contactame" onClick={handleLinkClick}>Contacto</a>
                 </div>
-                <div className=' ms-5'>
+                <div className='ms-5'>
                     <button className='mx-1 btn btnChange'><i class="bi bi-moon"></i></button>
                     <button className='mx-1 btn btnChange'>EN</button>
                 </div>
