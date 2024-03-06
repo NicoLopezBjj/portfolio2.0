@@ -15,17 +15,19 @@
     text-align: center;
 }
 
+.borderRadius{
+    border-radius: 0.2em;
+}
 
 .otherBrown{
     background-color: #bd651c;
-    
     border: none;
 }
 
 .otherBrown:hover{
     background-color: white;
     color: #bd651c;
-    font-weight: bold;
+    transition: 1s;
 }
 
 .none{

@@ -4,7 +4,7 @@
 }
 
 .strong{
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .color{
@@ -26,10 +26,11 @@
    color: #F4F4F4 !important;
 }
 
-button:hover {
+.btnCv:hover {
     transform: scale(1.05);
     transition: 1s;
-    color: #A4581B;
+    background-color: #A4581B !important;
+    color: white !important;
 }
 
 .gris{
@@ -56,8 +57,9 @@ button:hover {
 }
 
 .iconoHover:hover {
-    transform:scale(1.05);
+    transform:scale(1.08);
     transition: 1s;
+    color: #A4581B !important;
 }
 
 @media(min-width:760px){

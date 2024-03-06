@@ -1,3 +1,8 @@
+.ancho{
+    margin: 0 auto;
+    width: 80%;
+}
+
 .marronLetra{
     color:#A4581B;
 }
