@@ -15,8 +15,8 @@ const SobreMi = () => {
                 <div className='ps-md-4 d-flex flex-column justify-content-center text-center'>
                     <p className='textoGris'><span className='marronLetra bold pad'>Termine la Diplomatura en Programacion Web Full Stack</span> en la Universidad Tecnologica Nacional.</p>
                     <div className='d-flex'>
-                    <a href=""><button className="me-3 btn btn-primary color border-0 px-4 py-2 mb-2 x-large" href="#cv">Ver Certificado</button></a> 
-                    <a href="#resumen"><button className="btn btn-primary color px-3 py-2  border-0 x-large" href="#cv">Ver CV</button></a> 
+                    <a href=""><button className="me-3 btn btn-primary color btnCv border-0 px-4 py-2 mb-2 x-large" href="#cv">Ver Certificado</button></a> 
+                    <a href="#resumen"><button className="btn btn-primary color btnCv px-3 py-2  border-0 x-large" href="#cv">Ver CV</button></a> 
                     </div>
                 </div>
             </div>

@@ -26,12 +26,7 @@
    color: #F4F4F4 !important;
 }
 
-.btnCv:hover {
-    transform: scale(1.05);
-    transition: 1s;
-    background-color: #A4581B !important;
-    color: white !important;
-}
+
 
 .gris{
     color: #696466;

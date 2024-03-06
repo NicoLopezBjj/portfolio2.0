@@ -11,6 +11,13 @@
     font-weight: bold;
 }
 
+.btnCv:hover {
+    transform: scale(1.05);
+    transition: 1s;
+    background-color: #A4581B !important;
+    color: white !important;
+}
+
 .cuadrado {
     background-color: #A4581B;
     padding: 0.2rem 0.8rem;

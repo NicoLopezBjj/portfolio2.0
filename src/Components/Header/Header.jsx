@@ -15,7 +15,7 @@ const Header = () => {
     }
 
     return(
-        <nav className='d-flex justify-content-between mt-4'>
+        <nav className='d-flex justify-content-between mt-4 gris'>
             {/* Icono de hamburguesa para pantallas pequeñas */}
             <div className='d-flex d-md-none'>
                 <button className='btn btn-menu' onClick={toggleMenu}>
