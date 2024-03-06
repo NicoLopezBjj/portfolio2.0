@@ -67,7 +67,7 @@ const form = useRef()
         <section className='fondoMarron pb-4'>
             <div>
                 <div className='p-4'>
-                    <h1 className='tituloEscribi'>Comparti tu propuesta</h1>
+                    <h1 className='tituloEscribi'>Contacto</h1>
                 </div>
                 {enviado && <div className='alert alert-info mt-3 d-flex justify-content-center' style={{ textAlign: "center" }} role="alert">
                             Mensaje enviado correctamente.
@@ -76,13 +76,13 @@ const form = useRef()
                 <form ref={form} onSubmit={sendEmail} className="center">
                     <div className="mt-1 d-flex justify-content-center w-100 ">
                         <input className="me-1 none ps-2 w-100 p-1 borderRadius" type="text" value={nombre} onChange={actualizaNombre} name="user_name" placeholder="Tu nombre"/>
-                        <input className='none ps-2 w-100 borderRadius p-1' type="email" value={email} onChange={actualizaEmail} name="user_email" placeholder="Tu email"/>
+                        <input className='none ps-2 w-100 borderRadius p-1' type="email" value={email} onChange={actualizaEmail} name="user_email" placeholder="ejemplo@gmail.com"/>
                     </div>
                     <div className='w-100'>
                         <input className="mt-1 none ps-2 w-100 borderRadius p-1"  type="text" value={asunto} onChange={actualizaAsunto}  placeholder="Asunto"/>
                     </div>
                     <div>
-                        <textarea className="mt-1 none ps-2 tercerInput w-100 p-1 borderRadius" placeholder="Mensaje" name="message" value={mensaje} onChange={actualizaMensaje} ></textarea>
+                        <textarea className="mt-1 none ps-2 tercerInput w-100 p-1 borderRadius" placeholder="Contame tu propuesta.." name="message" value={mensaje} onChange={actualizaMensaje} ></textarea>
                     </div>
                 </form>
             </div>            
