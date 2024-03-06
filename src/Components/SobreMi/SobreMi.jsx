@@ -4,10 +4,10 @@ const SobreMi = () => {
     const imageCertificado = "./certificado.jpg"
 
     return(
-        <div id="resumen" className="px-5 pt-4 mt-md-5 text-center ancho">
+        <div id="resumen" className=" py-5 mt-md-5 text-center ancho ">
             <h2 className='titleBrown'>Resumen sobre mi</h2>
             <hr />
-            <div className=" flex-md-row text-center text-justify align-items-center centrado ">
+            <div className=" flex-md-row text-center text-justify align-items-center centrado p-4">
                 <div>
                     <p className='textoGris'>Hola soy Nicolas Lopez, de la ciudad de Quilmes, provincia de Buenos Aires, Argentina. Soy Desarrollador Full Stack, comprometido a ofrecer soluciones de alta calidad en el ambito del desarrollo de software.<br/> 
                     Programo en Javascript, utilizando React y Node como framework, junto a MongoDB como base de datos. Estoy en continuo aprendizaje y crecimiento como desarrollador y emocionado por participar y contribuir a proyectos innovadores y equipos de trabajo.</p>

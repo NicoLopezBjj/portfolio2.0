@@ -32,16 +32,16 @@ const incrementarContador2 = (index) => {
    
     return(
         
-        <div id="lastJob" className='px-5 mt-5 mb-5  justify-content-center ancho'>
+        <div id="lastJob" className='p-5 mt-5 mb-5  justify-content-center ancho'>
             <div className='text-center '>
                 <h2 className='titleBrown mt-1 '>Proyectos</h2>
                 <hr />
                 <p className='gris mt-3'>Trabajos realizados individualmente y en equipo</p>
             </div>
-            <div className='row mt-5 d-flex flex-column w-60'>
-                <div className='col-12'>
-                    <div className='d-flex align-items-center proyecto'>
-                    <a href="https://nicolopezbjj.github.io/TercerTP/" target="_blank"><img className='img-fluid imgHover' src={image1} alt="" /></a>
+            <div className='row mt-5 d-flex flex-column w-60 '>
+                <div className='col-12 proyecto m-2 '>
+                    <div className='d-flex align-items-center imgHover'>
+                    <a href="https://nicolopezbjj.github.io/TercerTP/" target="_blank"><img className='img-fluid' src={image1} alt="" /></a>
                     <p className='colorGris ps-4 text-center d-flex align-items-center'>Ecommerce realizado en equipo. Utilizamos Node para el back y ejs como motor de plantilla. Creamos la base de datos desde 0 con MongoDB y Mongoose. El crud de usuarios lo hicimos con passport y passport-local. Control de versiones con Git y GitHub.</p>
                     </div>
                     {/* <div className='d-flex mt-3'>
@@ -56,9 +56,9 @@ const incrementarContador2 = (index) => {
                         </div>
                     </div> */}
                 </div>
-                <div className='col-12 pt-5'>
-                    <div className='d-flex align-items-center proyecto'>
-                    <a href="https://nicolopezbjj.github.io/TercerTP/" target="_blank" ><img className='img-fluid imgHover' src={image2} alt="" /></a>
+                <div className='col-12 pt-5 proyecto m-2'>
+                    <div className='d-flex align-items-center imgHover'>
+                    <a href="https://nicolopezbjj.github.io/TercerTP/" target="_blank" ><img className='img-fluid ' src={image2} alt="" /></a>
                     <p className='colorGris ps-4 text-center d-flex align-items-center'>Aplicacion de peliculas desarrollada con el paquete MERN y en equipo. Utilizamos una API para consumir los datos de las peliculas y MongoDB para manejar los usuarios y perfiles que pueden crear cada usuario dentro de la aplicacion. Realizamos la aplicacion en equipo y manejando las versiones con GitHub, creando pull requests y corrigiendo codigos entre los participantes del trabajo.</p>
                     </div>
                     {/* <div className='d-flex justify-content-between mt-3'>
@@ -73,9 +73,9 @@ const incrementarContador2 = (index) => {
                             </div>
                     </div> */}
                 </div>
-                <div className='col-12 pt-5'>
-                    <div className='d-flex align-items-center proyecto'>
-                        <a href="https://nicolopezbjj.github.io/TercerTP/" target="_blank"><img className='img-fluid imgHover'  src={image3} alt="" /></a>
+                <div className='col-12 pt-5 proyecto m-2'>
+                    <div className='d-flex align-items-center imgHover'>
+                        <a href="https://nicolopezbjj.github.io/TercerTP/" target="_blank"><img className='img-fluid'  src={image3} alt="" /></a>
                         <p className='colorGris ps-4 text-center d-flex align-items-center'>Proyecto personal para creacion de usuarios a traves de diferentes estrategias de passport. Los usuarios pueden iniciar sesion a traves de Google, Twitter y GitHub.</p>
                     </div>
                     {/* <div className='d-flex justify-content-between mt-3'>
