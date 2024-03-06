@@ -16,12 +16,18 @@ const Header = () => {
 
     return(
         <nav className='d-flex justify-content-between mt-4'>
-            <div className='d-flex'>
+            {/* Icono de hamburguesa para pantallas pequeñas */}
+            <div className='d-flex d-md-none'>
+                <button className='btn btn-menu' onClick={toggleMenu}>
+                    <i className={`btn btnChange bi ${isMenuOpen ? 'bi-x' : 'bi-list'}`}></i>
+                </button>
+            </div>
+            <div className={`d-md-flex ${isMenuOpen ? 'flex-column align-items-center' : 'd-none d-md-flex'}`}>
                 <a className="nav-link mx-2" aria-current="page" href="#inicio" onClick={handleLinkClick} >Inicio</a>
                 <a className="nav-link mx-2" href="#resumen" onClick={handleLinkClick}>Sobre mi</a> 
                 <a className="nav-link mx-2" href="#lastJob" onClick={handleLinkClick}>Proyectos</a>
                 <a className="nav-link mx-2" href="#contactame" onClick={handleLinkClick}>Contacto</a>
-            </div>
+            </div> 
             <div className='d-flex'>
                 <button className='mx-1 btn btnChange'><i class="bi bi-moon"></i></button>
                 <button className='mx-1 btn btnChange'>EN</button>
