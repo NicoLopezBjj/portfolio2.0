@@ -15,6 +15,7 @@ nav{
     text-underline-offset: 0.5em;
     color :#A4581B;
     transition: 0.3s;
+    font-weight: 400;
 }
 
 .marron{
@@ -47,6 +48,6 @@ nav{
 }
 
 .btnChange:hover{
-    background-color: #000000;
+    background-color: #A4581B;
     color: white;
 }
