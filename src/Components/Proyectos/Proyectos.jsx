@@ -1,4 +1,7 @@
 import React, { useState } from 'react';
+import Slider from 'react-slick';
+import 'slick-carousel/slick/slick.css';
+import 'slick-carousel/slick/slick-theme.css';
 import "./Proyectos.css"
 
 
@@ -57,6 +60,15 @@ const proyectos = [{
     link:"https://nicolopezbjj.github.io/bootstrapCard/"
 }]
 
+const settings = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+};
+
+
    
     return(
         <div id="lastJob" className='mt-5 mb-5 justify-content-center ancho'>
@@ -65,7 +77,7 @@ const proyectos = [{
             <hr />
             <p className='gris mt-3'>Trabajos realizados individualmente y en equipo</p>
         </div>
-        <div className='row mt-5 d-flex flex-column w-60 '>
+        <Slider {...settings} className='row mt-5 d-flex flex-column w-60 p-3'>
             {proyectos.map((proyecto, index) => (
                 <div key={index} className='col-12 proyecto m-2'>
                     <div className='d-flex align-items-center imgHover'>
@@ -74,7 +86,7 @@ const proyectos = [{
                     </div>
                 </div>
             ))}
-        </div>
+        </Slider>
     </div>
     )
 }
