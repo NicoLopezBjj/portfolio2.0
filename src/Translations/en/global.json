@@ -1,0 +1,19 @@
+{
+    "header" : {
+        "link1" : "Home",
+        "link2" : "About me",
+        "link3" : "Projects",
+        "link4" : "Contact"
+    },
+    "inicio": {
+        "title": "Developer Full Stack"
+    },
+    "aboutMe":{
+        "title": "About me",
+        "text1": "Hello, I am Nicolas Lopez, from the city of Quilmes, province of Buenos Aires, Argentina. I am a Full Stack Developer, committed to offering high quality solutions in the field of software development. I program in Javascript, using React and Node as a framework, along with MongoDB as a database. I am continually learning and growing as a developer and excited to participate and contribute to innovative projects and work teams.",
+        "text2" : "I finished the Diploma in Full Stack Web Programming" ,
+        "text3": "at the National Technological University.",
+        "button1" : "View certifcate",
+        "button2" : "View CV"
+    }
+}

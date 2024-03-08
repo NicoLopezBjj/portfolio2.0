@@ -1,11 +1,21 @@
 import React, {useState} from 'react';
 import "./Header.css"
+import { useTranslation } from "react-i18next"
+
 
 
 
 const Header = () => {
-
+    const { t , i18n } = useTranslation("global")
+    const [ language, setLanguage] = useState("es")
     const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+  
+    const toggleLanguage = (lang) =>{
+      setLanguage(lang)
+      i18n.changeLanguage(lang)
+    }
+  
 
     const toggleMenu = () => {
         setIsMenuOpen(!isMenuOpen)
@@ -23,14 +33,20 @@ const Header = () => {
                 </button>
             </div>
             <div className={`d-md-flex ${isMenuOpen ? 'flex-column align-items-center' : 'd-none d-md-flex'}`}>
-                <a className="nav-link mx-2" aria-current="page" href="#inicio" onClick={handleLinkClick} >Inicio</a>
-                <a className="nav-link mx-2" href="#resumen" onClick={handleLinkClick}>Sobre mi</a> 
-                <a className="nav-link mx-2" href="#lastJob" onClick={handleLinkClick}>Proyectos</a>
-                <a className="nav-link mx-2" href="#contactame" onClick={handleLinkClick}>Contacto</a>
+                <a className="nav-link mx-2" aria-current="page" href="#inicio" onClick={handleLinkClick} >{t("header.link1")}</a>
+                <a className="nav-link mx-2" href="#resumen" onClick={handleLinkClick}>{t("header.link2")}</a> 
+                <a className="nav-link mx-2" href="#lastJob" onClick={handleLinkClick}>{t("header.link3")}</a>
+                <a className="nav-link mx-2" href="#contactame" onClick={handleLinkClick}>{t("header.link4")}</a>
             </div> 
             <div className='d-flex'>
                 <button className='mx-1 btn btnChange'><i class="bi bi-moon"></i></button>
-                <button className='mx-1 btn btnChange'>EN</button>
+                
+                {language === 'es' && (
+                    <button className='mx-1 btn btnChange' onClick={() => toggleLanguage('en')}>EN</button>
+                     )}
+                {language === 'en' && (
+                    <button className='mx-1 btn btnChange' onClick={() => toggleLanguage('es')}>ES</button>
+                    )}
             </div>
         </nav>
        

@@ -1,0 +1,28 @@
+{
+    "header" : {
+        "link1" : "Inicio",
+        "link2" : "Sobre mi",
+        "link3" : "Proyectos",
+        "link4" : "Contacto"
+    },
+    "inicio": {
+        "title": "Desarrollador Full Stack"
+    },
+    "aboutMe":{
+        "title": "Sobre mi",
+        "text1": " Hola soy Nicolas Lopez, de la ciudad de Quilmes, provincia de Buenos Aires, Argentina. Soy desarrollador Full Stack, comprometido a ofrecer soluciones de alta calidad en el ambito del desarrollo de software. Programo en Javascript, utilizando React y Node como framework, junto a MongoDB como base de datos. Estoy en continuo aprendizaje y crecimiento como desarrollador y emocionado por participar y contribuir a proyectos innovadores y equipos de trabajo.",
+        "text2" : "Termine la Diplomatura en Programacion Web Full Stack",
+        "text3" : "en la Universidad Tecnologica Nacional.",
+        "button1" : "Ver certificado",
+        "button2" : "Ver CV"
+    },
+    "projects":{
+        "title":"Proyectos",
+        "text":"Trabajos individuales y en equipo",
+        "project1":"Ecommerce realizado en equipo. Utilizamos Node para el back y ejs como motor de plantilla. Creamos la base de datos desde 0 con MongoDB y Mongoose. El crud de usuarios lo hicimos con passport y passport-local. Control de versiones con Git y GitHub.",
+        "project2":"Aplicacion de peliculas desarrollada con el paquete MERN y en equipo. Utilizamos una API para consumir los datos de las peliculas y MongoDB para manejar los usuarios y perfiles que pueden crear cada usuario dentro de la aplicacion. Realizamos la aplicacion en equipo y manejando las versiones con GitHub, creando pull requests y corrigiendo codigos entre los participantes del trabajo.",
+        "project3":"Blog desarrollado con MERN. Los usuarios pueden crear perfiles y seguir a otros usuarios, likear posts y comentarios. Trabajo en equipo, junto a un compañero. Manejo de versiones con GitHub y pull request."
+
+    }
+
+}
