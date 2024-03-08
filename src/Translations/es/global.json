@@ -16,13 +16,28 @@
         "button1" : "Ver certificado",
         "button2" : "Ver CV"
     },
-    "projects":{
+    "project":{
         "title":"Proyectos",
-        "text":"Trabajos individuales y en equipo",
-        "project1":"Ecommerce realizado en equipo. Utilizamos Node para el back y ejs como motor de plantilla. Creamos la base de datos desde 0 con MongoDB y Mongoose. El crud de usuarios lo hicimos con passport y passport-local. Control de versiones con Git y GitHub.",
-        "project2":"Aplicacion de peliculas desarrollada con el paquete MERN y en equipo. Utilizamos una API para consumir los datos de las peliculas y MongoDB para manejar los usuarios y perfiles que pueden crear cada usuario dentro de la aplicacion. Realizamos la aplicacion en equipo y manejando las versiones con GitHub, creando pull requests y corrigiendo codigos entre los participantes del trabajo.",
-        "project3":"Blog desarrollado con MERN. Los usuarios pueden crear perfiles y seguir a otros usuarios, likear posts y comentarios. Trabajo en equipo, junto a un compañero. Manejo de versiones con GitHub y pull request."
-
-    }
-
+        "text":"Trabajos individuales y en equipo"
+    },         
+    "projects": [
+        {
+            "description":"Ecommerce realizado en equipo. Utilizamos Node para el back y ejs como motor de plantilla. Creamos la base de datos desde 0 con MongoDB y Mongoose. El crud de usuarios lo hicimos con passport y passport-local. Control de versiones con Git y GitHub."
+        },
+        {
+            "description": "Aplicacion de peliculas desarrollada con el paquete MERN y en equipo. Utilizamos una API para consumir los datos de las peliculas y MongoDB para manejar los usuarios y perfiles que pueden crear cada usuario dentro de la aplicacion. Realizamos la aplicacion en equipo y manejando las versiones con GitHub, creando pull requests y corrigiendo codigos entre los participantes del trabajo."   
+        },
+        {
+            "description":"Blog desarrollado con MERN. Los usuarios pueden crear perfiles y seguir a otros usuarios, likear posts y comentarios. Trabajo en equipo, junto a un compañero. Manejo de versiones con GitHub y pull request."
+        },
+        {
+            "description":"Proyecto personal para creacion de usuarios a traves de diferentes estrategias de passport. Los usuarios pueden iniciar sesion a traves de Google, y GitHub."
+        },
+        {
+            "description":"Aplicacion con React. Proyecto personal en donde realizo manejo de API. Primero busco la imagen del gato en la primer API, y renderizo la imagen junto a las primeras 3 palabras de la descripcion de la segunda API. "
+        },
+        {
+            "description":"Trabajo de una card responsive clasica hecha con HTML, CSS y Bootstrap."
+        }
+    ]    
 }

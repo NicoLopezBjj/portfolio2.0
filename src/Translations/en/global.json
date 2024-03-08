@@ -15,5 +15,29 @@
         "text3": "at the National Technological University.",
         "button1" : "View certifcate",
         "button2" : "View CV"
-    }
+    },
+    "project":{
+        "title":"Projects",
+        "text":"Individual and team work"
+    },
+    "projects": [
+        {
+            "description":"E-commerce project developed collaboratively. We utilized Node.js for the backend and EJS as the template engine. The database was built from scratch using MongoDB and Mongoose. User CRUD operations were implemented with Passport and Passport-local. Version control was managed using Git and GitHub."
+        },
+        {
+            "description": "Movie application developed using the MERN stack and teamwork. We used an API to fetch movie data and MongoDB to manage users and profiles that each user can create within the application. We developed the application as a team, managing versions with GitHub, creating pull requests, and correcting code among the team members."   
+        },
+        {
+            "description":"Blog developed with MERN. Users can create profiles and follow other users, like posts, and comments. Teamwork, alongside a colleague. Version control with GitHub and pull requests."
+        },
+        {
+            "description":"Personal project for creating users through different passport strategies. Users can log in via Google and GitHub."
+        },
+        {
+            "description":"React application. Personal project where I handle API management. First, I search for the cat image in the first API, and then I render the image along with the first 3 words of the description from the second API"
+        },
+        {
+            "description":"Classic responsive card project made with HTML, CSS, and Bootstrap."
+        }
+    ]    
 }
