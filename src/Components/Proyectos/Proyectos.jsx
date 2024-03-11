@@ -53,7 +53,7 @@ const proyectos = [{
     link:""
 },
 {
-    image:"",
+    image:"./AppGatitos.png",
     descriptionKey:"projects.4.description",
     link:"prueba-react-six.vercel.app"
 },
