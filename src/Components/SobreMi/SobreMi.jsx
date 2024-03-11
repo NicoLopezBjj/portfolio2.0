@@ -23,9 +23,7 @@ const SobreMi = () => {
                     <a href="https://drive.google.com/file/d/1o2KH8wX3FApiTNQFwe2NxT1Mez3xxJ8x/view?usp=sharing" target='_blank'><button className="btn btn-primary color btnCv px-3 py-2  border-0 x-large" href="#cv">{t("aboutMe.button2")}</button></a> 
                     </div>
                 </div>
-            </div>
-                    {/* <img className='imgCertificado' src={imageCertificado} alt="" /> */}
-                    
+            </div>  
         </div>
     )
 }

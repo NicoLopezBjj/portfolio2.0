@@ -39,5 +39,14 @@
         {
             "description":"Classic responsive card project made with HTML, CSS, and Bootstrap."
         }
-    ]    
+    ],
+    "contact":{
+        "title":"Contact",
+        "message":"Message sent successfully.",
+        "button":"Send message",
+        "ph-name":"Your name",
+        "ph-email":"example@gmail.com",
+        "ph-subject":"Subject",
+        "ph-textarea":"Share your proposal..."
+    }     
 }

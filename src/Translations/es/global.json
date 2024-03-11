@@ -39,5 +39,14 @@
         {
             "description":"Trabajo de una card responsive clasica hecha con HTML, CSS y Bootstrap."
         }
-    ]    
+    ],
+    "contact":{
+        "title":"Contacto",
+        "message":"Mensaje enviado correctamente",
+        "button":"Enviar mensaje",
+        "ph-name":"Tu nombre",
+        "ph-email":"ejemplo@gmail.com",
+        "ph-subject":"Asunto",
+        "ph-textarea":"Contame tu propuesta..."
+    }    
 }

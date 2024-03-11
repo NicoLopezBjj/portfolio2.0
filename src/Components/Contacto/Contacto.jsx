@@ -1,6 +1,8 @@
 import React, { useState,useRef } from  'react';
 import "./Contacto.css"
 import emailjs from '@emailjs/browser';
+import { useTranslation } from "react-i18next"
+
 
 const Contacto = () => {
 
@@ -9,6 +11,8 @@ const Contacto = () => {
     const [asunto,setAsunto] = useState("")
     const [mensaje,setMensaje] = useState("")
     const [enviado, setEnviado] = useState(false)
+    const { t , i18n } = useTranslation("global")
+
 
 function actualizaNombre(e){
     setNombre(e.target.value)
@@ -67,28 +71,28 @@ const form = useRef()
         <section className='fondoMarron pb-4'>
             <div>
                 <div className='p-4'>
-                    <h1 className='tituloEscribi'>Contacto</h1>
+                    <h1 className='tituloEscribi'>{t("contact.title")}</h1>
                 </div>
                 {enviado && <div className='alert alert-info mt-3 d-flex justify-content-center' style={{ textAlign: "center" }} role="alert">
-                            Mensaje enviado correctamente.
+                            {t("contact.message")}
                         </div>}
             <div className='formulario mx-auto '>
                 <form ref={form} onSubmit={sendEmail} className="center">
                     <div className="mt-1 d-flex justify-content-center w-100 pb-1">
-                        <input className="me-2 none ps-2 w-100 p-1 borderRadius" type="text" value={nombre} onChange={actualizaNombre} name="user_name" placeholder="Tu nombre"/>
-                        <input className='none ps-2 w-100 borderRadius p-1' type="email" value={email} onChange={actualizaEmail} name="user_email" placeholder="ejemplo@gmail.com"/>
+                        <input className="me-2 none ps-2 w-100 p-1 borderRadius" type="text" value={nombre} onChange={actualizaNombre} name="user_name" placeholder={t("contact.ph-name")}/>
+                        <input className='none ps-2 w-100 borderRadius p-1' type="email" value={email} onChange={actualizaEmail} name="user_email" placeholder={t("contact.ph-email")}/>
                     </div>
                     <div className='w-100'>
-                        <input className="mt-1 none ps-2 w-100 borderRadius p-1 "  type="text" value={asunto} onChange={actualizaAsunto}  placeholder="Asunto"/>
+                        <input className="mt-1 none ps-2 w-100 borderRadius p-1 "  type="text" value={asunto} onChange={actualizaAsunto}  placeholder={t("contact.ph-subject")}/>
                     </div>
                     <div>
-                        <textarea className="mt-2 none ps-2 tercerInput w-100 p-1  borderRadius" placeholder="Contame tu propuesta.." name="message" value={mensaje} onChange={actualizaMensaje} ></textarea>
+                        <textarea className="mt-2 none ps-2 tercerInput w-100 p-1  borderRadius" placeholder={t("contact.ph-textarea")} name="message" value={mensaje} onChange={actualizaMensaje} ></textarea>
                     </div>
                 </form>
             </div>            
                 
             <div className='center'>
-                <button className="otherBrown p-2 mt-2 border-0 btn btn-primary" onClick={sendEmail}>Enviar mensaje</button>
+                <button className="otherBrown p-2 mt-2 border-0 btn btn-primary" onClick={sendEmail}>{t("contact.button")}</button>
             </div>
             
         </div>
