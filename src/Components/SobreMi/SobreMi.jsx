@@ -20,7 +20,7 @@ const SobreMi = () => {
                     <p className='textoGris'><span className='marronLetra bold pad'>{t("aboutMe.text2")}</span> {t("aboutMe.text3")}</p>
                     <div className='d-flex'>
                     <a href="https://drive.google.com/file/d/17Te_6K4G1O00FRxH8zJcQTWRa_Z3qgf0/view?usp=sharing" target='_blank'><button className="me-3 btn btn-primary color btnCv border-0 px-4 py-2 mb-2 x-large" href="#cv">{t("aboutMe.button1")}</button></a> 
-                    <a href="https://drive.google.com/file/d/1o2KH8wX3FApiTNQFwe2NxT1Mez3xxJ8x/view?usp=sharing" target='_blank'><button className="btn btn-primary color btnCv px-3 py-2  border-0 x-large" href="#cv">{t("aboutMe.button2")}</button></a> 
+                    <a href="https://drive.google.com/file/d/1nXK_GQs4O4KTGVIX5lMJ73ex6Wq1TfGS/view?usp=sharing" target='_blank'><button className="btn btn-primary color btnCv px-3 py-2  border-0 x-large" href="#cv">{t("aboutMe.button2")}</button></a> 
                     </div>
                 </div>
             </div>  

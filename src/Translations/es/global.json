@@ -31,7 +31,7 @@
             "description":"Blog desarrollado con MERN. Los usuarios pueden crear perfiles y seguir a otros usuarios, likear posts y comentarios. Trabajo en equipo, junto a un compañero. Manejo de versiones con GitHub y pull request."
         },
         {
-            "description":"Proyecto personal para creacion de usuarios a traves de diferentes estrategias de passport. Los usuarios pueden iniciar sesion a traves de Google, y GitHub."
+            "description":"Proyecto personal para creacion de usuarios a traves de diferentes estrategias de passport. Los usuarios pueden iniciar sesion a traves de Google, Twitter (X) y GitHub."
         },
         {
             "description":"Aplicacion con React. Proyecto personal en donde realizo manejo de API. Primero busco la imagen del gato en la primer API, y renderizo la imagen junto a las primeras 3 palabras de la descripcion de la segunda API. "

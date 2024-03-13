@@ -47,11 +47,11 @@ const proyectos = [{
     descriptionKey:"projects.2.description",
     link:"https://github.com/NicoLopezBjj/blog-mern/tree/prbis"
 },
-{
-    image:"./tpfinal3.png",
-    descriptionKey:"projects.3.description",
-    link:""
-},
+// {
+//     image:"./tpfinal3.png",
+//     descriptionKey:"projects.3.description",
+//     link:""
+// },
 {
     image:"./AppGatitos.png",
     descriptionKey:"projects.4.description",
@@ -80,7 +80,8 @@ const settings = {
             <hr />
             <p className='gris mt-3'>{t("project.text")}</p>
         </div>
-        <Slider {...settings} className='row mt-5 d-flex flex-column w-60 p-3'>
+        {/* <Slider {...settings} */}
+         <div className='row mt-5 d-flex flex-column w-60 p-3'>
             {proyectos.map((proyecto, index) => (
                 <div key={index} className='col-12 proyecto m-2'>
                     <div className='d-flex align-items-center imgHover'>
@@ -90,7 +91,8 @@ const settings = {
                     </div>
                 </div>
             ))}
-        </Slider>
+            </div>
+        {/* </Slider> */}
     </div>
     )
 }
