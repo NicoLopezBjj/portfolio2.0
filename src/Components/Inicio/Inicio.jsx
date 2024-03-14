@@ -1,13 +1,13 @@
 import React from 'react';
 import "./Inicio.css"
 import { useTranslation } from "react-i18next"
+import imagePerfil from "/FotoPerfil.jpg"
 
 
 
 const Inicio = () => {
     const { t , i18n } = useTranslation("global")
-
-    const imagePerfil = ".././FotoPerfil.jpg"
+    
     
     return (
         <>
