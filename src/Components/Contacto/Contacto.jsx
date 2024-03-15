@@ -1,5 +1,6 @@
 import React, { useState,useRef } from  'react';
-import "./Contacto.css"
+import "../../css/dark.css"
+import "../../css/light.css"
 import emailjs from '@emailjs/browser';
 import { useTranslation } from "react-i18next"
 

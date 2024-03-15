@@ -1,7 +1,8 @@
 import React, {useState} from 'react';
-import "./Header.css"
 import { useTranslation } from "react-i18next"
-import "../Dark/dark.css"
+import "../../css/dark.css"
+import "../../css/light.css"
+
 
 
 

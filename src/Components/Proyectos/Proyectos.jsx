@@ -2,7 +2,8 @@ import React, { useState } from 'react';
 import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import "./Proyectos.css"
+import "../../css/dark.css"
+import "../../css/light.css"
 import { useTranslation } from "react-i18next"
 
 
@@ -82,7 +83,7 @@ const settings = {
             <p className='gris mt-3'>{t("project.text")}</p>
         </div>
         {/* <Slider {...settings} */}
-         <div className='row mt-5 d-flex flex-column w-60 p-3 h-20'>
+         <div className='row mt-5 d-flex flex-column w-60 p-3'>
             {proyectos.map((proyecto, index) => (
                 <div key={index} className='col-12 proyecto m-2'>
                     <div className='d-flex align-items-center imgHover'>

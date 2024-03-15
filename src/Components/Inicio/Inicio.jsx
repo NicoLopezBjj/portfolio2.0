@@ -1,5 +1,6 @@
 import React from 'react';
-import "./Inicio.css"
+import "../../css/dark.css"
+import "../../css/light.css"
 import { useTranslation } from "react-i18next"
 // import gif from "/gif-for-presentation-64.gif"
 import imagePerfil from "/FotoPerfil.jpg"

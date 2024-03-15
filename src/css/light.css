@@ -1,0 +1,291 @@
+nav{
+    margin: 0 auto;
+    width: 80% !important;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding:1px 1px;
+}
+
+
+
+.nav-link:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.5em;
+    color :#A4581B;
+    transition: 0.3s;
+    font-weight: 400;
+}
+
+.marron{
+    background-color: #A4581B !important;
+    opacity: 0.99;
+}
+
+.white{
+    color: white !important;
+}
+
+.margin{
+    align-items: center;
+}
+    
+.black{
+    color: #000000;
+}
+
+.minAncho{
+    min-width: 100px;
+    max-width: 130px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.btnChange{
+    border: none;
+    background-color: #e2e2e2;
+}
+
+.btnChange:hover{
+    background-color: #A4581B;
+    color: white;
+}
+
+
+/*   *******   INICIO    *******   */
+
+.ancho{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.strong{
+    font-weight: 500;
+}
+
+.color{
+    background-color: black !important;
+}
+
+.height{
+    height: 100vh;
+}
+
+.imagePerfil{
+    border-radius: 3em;
+    height: 250px;
+    width: 302px;
+}
+
+.fondo{
+   color: #F4F4F4 !important;
+}
+
+
+
+.gris{
+    color: #696466;
+    letter-spacing: 0.2rem;
+}
+
+.titleBrown{
+    color: #A4581B;
+    text-transform: uppercase;
+    letter-spacing: 0.2rem;
+}
+
+.x-large{
+    font-size:medium;
+}
+
+.newIcon{
+    font-size: xx-large;
+}
+
+.iconoHover{
+    transform-origin: center center;
+}
+
+.iconoHover:hover {
+    transform:scale(1.08);
+    transition: 1s;
+    color: #A4581B !important;
+}
+
+@media(min-width:760px){
+    .fontSize{
+        font-size: 4rem;
+    }
+    .fontSizeB{
+        font-size: 2rem;
+    }
+}
+
+/*   ******  SOBRE MI *******    */
+
+.ancho{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.marronLetra{
+    color:#A4581B;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.btnCv:hover {
+    transform: scale(1.05);
+    transition: 1s;
+    background-color: #A4581B !important;
+    color: white !important;
+}
+
+.cuadrado {
+    background-color: #A4581B;
+    padding: 0.2rem 0.8rem;
+    font-size: 2rem;
+    color: white;
+    border-radius: 10%;
+    margin-right: 0.2rem;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.imgCertificado{
+    height: 25rem;
+    width: 40rem;
+}
+
+.centrado{
+    margin: 0 auto;
+}
+
+.imagePerfil{
+    border-radius: 3em;
+    height: 250px;
+    width: 302px;
+}
+
+.textoGris{
+    color: #696466;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    font-size: large;
+}
+
+/*  ********   PROYECTOS   *********     */
+
+.ancho{
+    margin: 0 auto;
+    width: 80%;
+}
+
+.botonCorazon{
+    border: none;
+    background-color: transparent;
+    
+}
+
+img{
+    height: 100%;
+    width: 100%;
+}
+
+.colorGris{
+    color: #696466;
+    letter-spacing: 0.1em;
+}
+
+.tamaño{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.botonCorazon:hover{
+    transform: scale(1.5);
+    transition: 0.3s;
+}
+
+.imgHover:hover {
+    opacity: 0.7;
+    transform: scale(1.02);
+    transition: 1s;
+    overflow: hidden ;
+}
+
+.proyecto {
+    box-shadow: 4px 8px 16px rgba(170, 170, 170, 0.7);
+    border-radius: 8px;
+    transition: box-shadow 0.3s ease;
+}
+
+/* .proyecto:hover{
+    box-shadow: 0 16px 32px rgba(230, 230, 230, 0.3);
+} */
+
+.proyecto img {
+    width: 350px; 
+    margin-right: 20px; 
+}
+
+.proyecto p {
+    flex: 1; 
+    margin: 0; 
+}
+
+/* *******  CONTACTO ********  */
+.fondoMarron{
+    background-color: #A4581B;
+}
+
+.tituloEscribi{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    align-items: center;
+    letter-spacing: 0.2rem;
+}
+
+.center{
+    align-items: center;
+    text-align: center;
+}
+
+.borderRadius{
+    border-radius: 0.2em;
+}
+
+.otherBrown{
+    background-color: #bd651c;
+    border: none;
+}
+
+.otherBrown:hover{
+    background-color: white;
+    color: #bd651c;
+    transition: 1s;
+}
+
+.none{
+    border: none;
+}
+
+.formulario{
+    max-width: 42rem !important;
+}
+
+.tercerInput{
+    height: 10rem;
+}
+
+@media(max-width:760px){
+    .formulario{
+        width: 20rem;
+    }
+}

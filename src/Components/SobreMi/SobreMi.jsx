@@ -1,5 +1,6 @@
 import React from 'react';
-import "./SobreMi.css"
+import "../../css/dark.css"
+import "../../css/light.css"
 import { useTranslation } from "react-i18next"
 import imagePerfil from "/FotoPerfil.jpg"
 
