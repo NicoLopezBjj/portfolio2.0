@@ -1,6 +1,7 @@
 import React from 'react';
 import "./SobreMi.css"
 import { useTranslation } from "react-i18next"
+import imagePerfil from "/FotoPerfil.jpg"
 
 
 const SobreMi = () => {
@@ -14,7 +15,7 @@ const SobreMi = () => {
             <hr />
             <div className=" flex-md-row text-center text-justify align-items-center centrado p-4">
                 <div>
-                    <p className='textoGris'>{t("aboutMe.text1")}</p>
+                    <p className='textoGris pt-2'>{t("aboutMe.text1")}</p>
                 </div>
                 <div className='ps-md-4 d-flex flex-column justify-content-center text-center'>
                     <p className='textoGris'><span className='marronLetra bold pad'>{t("aboutMe.text2")}</span> {t("aboutMe.text3")}</p>

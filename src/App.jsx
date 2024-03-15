@@ -7,6 +7,7 @@ import { SobreMi } from './Components/SobreMi/SobreMi'
 import { Inicio } from './Components/Inicio/Inicio'
 import { Proyectos } from './Components/Proyectos/Proyectos'
 import { Contacto } from './Components/Contacto/Contacto'
+import './Components/Dark/dark.css'
 
 function App() {
   const [count, setCount] = useState(0)

@@ -56,12 +56,13 @@ const proyectos = [{
     image:"./AppGatitos.png",
     descriptionKey:"projects.4.description",
     link:"prueba-react-six.vercel.app"
-},
-{
-    image:"./Card-Bootstrap.png",
-    descriptionKey: "projects.5.description",
-    link:"https://nicolopezbjj.github.io/bootstrapCard/"
-}]
+}
+// {
+//     image:"./Card-Bootstrap.png",
+//     descriptionKey: "projects.5.description",
+//     link:"https://nicolopezbjj.github.io/bootstrapCard/"
+// }
+]
 
 const settings = {
     dots: true,
@@ -81,7 +82,7 @@ const settings = {
             <p className='gris mt-3'>{t("project.text")}</p>
         </div>
         {/* <Slider {...settings} */}
-         <div className='row mt-5 d-flex flex-column w-60 p-3'>
+         <div className='row mt-5 d-flex flex-column w-60 p-3 h-20'>
             {proyectos.map((proyecto, index) => (
                 <div key={index} className='col-12 proyecto m-2'>
                     <div className='d-flex align-items-center imgHover'>

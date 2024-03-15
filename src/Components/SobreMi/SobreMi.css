@@ -40,6 +40,12 @@
     margin: 0 auto;
 }
 
+.imagePerfil{
+    border-radius: 3em;
+    height: 250px;
+    width: 302px;
+}
+
 .textoGris{
     color: #696466;
     letter-spacing: 0.1rem;

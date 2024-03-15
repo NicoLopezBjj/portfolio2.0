@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import "./Header.css"
 import { useTranslation } from "react-i18next"
+import "../Dark/dark.css"
 
 
 
@@ -9,6 +10,12 @@ const Header = () => {
     const { t , i18n } = useTranslation("global")
     const [ language, setLanguage] = useState("es")
     const [isMenuOpen, setIsMenuOpen] = useState(false)
+    const [isDarkMode, setIsDarkMode] = useState(false)
+
+    const toggleDarkMode = () =>{
+        setIsDarkMode(!isDarkMode)
+        document.documentElement.classList.toggle('dark-mode',!isDarkMode)
+    }
 
   
     const toggleLanguage = (lang) =>{
@@ -25,7 +32,7 @@ const Header = () => {
     }
 
     return(
-        <nav className='d-flex justify-content-between mt-4 gris'>
+        <nav className='d-flex justify-content-between mt-4 gris dk-header'>
             {/* Icono de hamburguesa para pantallas pequeñas */}
             <div className='d-flex d-md-none'>
                 <button className='btn btn-menu' onClick={toggleMenu}>
@@ -39,7 +46,7 @@ const Header = () => {
                 <a className="nav-link mx-2" href="#contactame" onClick={handleLinkClick}>{t("header.link4")}</a>
             </div> 
             <div className='d-flex'>
-                <button className='mx-1 btn btnChange'><i class="bi bi-moon"></i></button>
+                <button className='mx-1 btn btnChange' onClick={toggleDarkMode}><i class="bi bi-moon"></i></button>
                 
                 {language === 'es' && (
                     <button className='mx-1 btn btnChange' onClick={() => toggleLanguage('en')}>EN</button>
