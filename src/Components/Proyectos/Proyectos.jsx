@@ -37,7 +37,7 @@ const proyectos = [{
     image: "./ShopCart.png",
     title: "ShopCart Ecommerce",
     descriptionKey: "projects.0.description",
-    repo:"",
+    repo:"https://github.com/NicoLopezBjj/shopCart",
     deploy:"https://shopcart-hmte.onrender.com/" 
 },
 {
@@ -63,7 +63,7 @@ const proyectos = [{
     image:"./AppGatitos.png",
     title:"App Cats",
     descriptionKey:"projects.4.description",
-    repo:"",
+    repo:"https://github.com/NicoLopezBjj/pruebaReact",
     deploy:"prueba-react-six.vercel.app"
 }
 // {
