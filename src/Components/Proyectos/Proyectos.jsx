@@ -35,18 +35,24 @@ const incrementarContador2 = (index) => {
  
 const proyectos = [{
     image: "./ShopCart.png",
+    title: "ShopCart Ecommerce",
     descriptionKey: "projects.0.description",
-    link:"https://shopcart-hmte.onrender.com/" 
+    repo:"",
+    deploy:"https://shopcart-hmte.onrender.com/" 
 },
 {
     image:"./Pelis-Mern.png",
+    title:"Pelis-Mern",
     descriptionKey: "projects.1.description",
-    link: "https://github.com/NicoLopezBjj/pelis-mern/tree/pull-naiki"
+    repo: "https://github.com/NicoLopezBjj/pelis-mern/tree/pull-naiki",
+    deploy:""
 },
 {
     image:"./Blog-Mern.png",
+    title:"Blog-Mern",
     descriptionKey:"projects.2.description",
-    link:"https://github.com/NicoLopezBjj/blog-mern/tree/prbis"
+    repo:"https://github.com/NicoLopezBjj/blog-mern/tree/prbis",
+    deploy:""
 },
 // {
 //     image:"./tpfinal3.png",
@@ -55,8 +61,10 @@ const proyectos = [{
 // },
 {
     image:"./AppGatitos.png",
+    title:"App Cats",
     descriptionKey:"projects.4.description",
-    link:"prueba-react-six.vercel.app"
+    repo:"",
+    deploy:"prueba-react-six.vercel.app"
 }
 // {
 //     image:"./Card-Bootstrap.png",
@@ -83,16 +91,25 @@ const settings = {
             <p className='gris mt-3'>{t("project.text")}</p>
         </div>
         {/* <Slider {...settings} */}
-         <div className='row mt-5 d-flex flex-column w-60 p-3'>
+         <div className='mt-5 d-flex flex-column w-60 p-3'>
             {proyectos.map((proyecto, index) => (
-                <div key={index} className='col-12 proyecto m-2'>
-                    <div className='d-flex align-items-center imgHover'>
-                        <a href={proyecto.link} target="_blank"><img className='img-fluid' src={proyecto.image} alt="" /></a>
-                        <p className='colorGris ps-4 text-center d-flex align-items-center'>
-                            {t(proyecto.descriptionKey)}</p>
+                    <div key={index} className='d-flex col-12 proyecto imgHover tamaño m-2 w-100'>
+                            <img className='img-fluid img p-1' src={proyecto.image} alt="" />
+                        <div className='d-flex flex-column align-items-center'>
+                            <div className='d-flex justify-content-between p-2 w-100'>
+                                    <h5 className='p-2'>{proyecto.title}</h5>
+                                <div className='d-flex justify-content-between sizeLink'>
+                                    <a href={proyecto.repo}><i class="bi bi-github black p-2"></i></a>                                    
+                                    <a href={proyecto.deploy}><i class="bi bi-box-arrow-up-right black p-2"></i></a>
+                                </div>
+                            </div>
+                            <div className='d-flex align-items-center text-justify p-2'>
+                                <p className='colorGris d-flex align-items-center'>
+                                {t(proyecto.descriptionKey)}</p>                        
+                            </div>
+                        </div>
                     </div>
-                </div>
-            ))}
+                           ))}
             </div>
         {/* </Slider> */}
     </div>

@@ -85,7 +85,7 @@ nav{
 
 
 .gris{
-    color: #696466;
+    color: #555153;
     letter-spacing: 0.2rem;
 }
 
@@ -192,13 +192,13 @@ nav{
     
 }
 
-img{
+.img{
     height: 100%;
     width: 100%;
 }
 
 .colorGris{
-    color: #696466;
+    color: #5e5b5c;
     letter-spacing: 0.1em;
 }
 
@@ -213,10 +213,12 @@ img{
 }
 
 .imgHover:hover {
-    opacity: 0.7;
-    transform: scale(1.02);
-    transition: 1s;
+    opacity: 0.9;
     overflow: hidden ;
+}
+
+.tamaño{
+    height: auto;
 }
 
 .proyecto {
@@ -237,6 +239,10 @@ img{
 .proyecto p {
     flex: 1; 
     margin: 0; 
+}
+
+.sizeLink{
+    font-size: x-large;
 }
 
 /* *******  CONTACTO ********  */
