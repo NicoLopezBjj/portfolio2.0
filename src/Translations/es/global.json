@@ -10,8 +10,8 @@
     },
     "aboutMe":{
         "title": "Sobre mi",
-        "text1": " Hola soy Nicolas Lopez, de la ciudad de Quilmes, provincia de Buenos Aires, Argentina. Soy desarrollador Full Stack, comprometido a ofrecer soluciones de alta calidad en el ambito del desarrollo de software. Programo en Javascript, utilizando React y Node como framework, junto a MongoDB como base de datos. Estoy en continuo aprendizaje y crecimiento como desarrollador y emocionado por participar y contribuir a proyectos innovadores y equipos de trabajo.",
-        "text2" : "Termine la Diplomatura en Programacion Web Full Stack",
+        "text1": "Mi nombre es Nicolás López y soy originario de la ciudad de Quilmes, en la provincia de Buenos Aires, Argentina. Me desempeño como desarrollador Full Stack y me comprometo a proporcionar soluciones de alta calidad en el ámbito del desarrollo de software. Mi experiencia se centra en la programación en JavaScript, haciendo uso de React y Node como frameworks, además de MongoDB como base de datos. Me encuentro en constante aprendizaje autodidacta y crecimiento profesional como desarrollador, con un gran entusiasmo por participar y aportar a proyectos innovadores y equipos de trabajo.Mi nombre es Nicolás López y soy originario de la ciudad de Quilmes, en la provincia de Buenos Aires, Argentina. Me desempeño como desarrollador Full Stack y me comprometo a proporcionar soluciones de alta calidad en el ámbito del desarrollo de software. Mi experiencia se centra en la programación en JavaScript, haciendo uso de React y Node como frameworks, además de MongoDB como base de datos. Me encuentro en constante aprendizaje autodidacta y crecimiento profesional como desarrollador, con un gran entusiasmo por participar y aportar a proyectos innovadores y equipos de trabajo.",
+        "text2" : "Terminé la Diplomatura en Programación Web Full Stack.",
         "text3" : "en la Universidad Tecnologica Nacional.",
         "button1" : "Ver certificado",
         "button2" : "Ver CV"
@@ -22,19 +22,19 @@
     },         
     "projects": [
         {
-            "description":"Ecommerce realizado en equipo. Utilizamos Node para el back y ejs como motor de plantilla. Creamos la base de datos desde 0 con MongoDB y Mongoose. El crud de usuarios lo hicimos con passport y passport-local. Control de versiones con Git y GitHub."
+            "description":"Desarrollamos un eCommerce en equipo, utilizando Node.js para el backend y EJS como motor de plantillas. Creamos la base de datos desde cero con MongoDB y Mongoose. Implementamos el CRUD de usuarios con Passport y Passport-local. Para el control de versiones, empleamos Git y GitHub."
         },
         {
-            "description": "Aplicacion de peliculas desarrollada con el paquete MERN y en equipo. Utilizamos una API para consumir los datos de las peliculas y MongoDB para manejar los usuarios y perfiles que pueden crear cada usuario dentro de la aplicacion. Realizamos la aplicacion en equipo y manejando las versiones con GitHub, creando pull requests y corrigiendo codigos entre los participantes del trabajo."   
+            "description": "Desarrollamos una aplicación de películas en equipo utilizando el paquete MERN. Utilizamos una API para consumir los datos de las películas y MongoDB para gestionar los usuarios y los perfiles que cada uno puede crear dentro de la aplicación. Trabajamos en equipo, gestionando las versiones con GitHub, creando pull requests y corrigiendo código entre los participantes del proyecto."   
         },
         {
-            "description":"Blog desarrollado con MERN. Los usuarios pueden crear perfiles y seguir a otros usuarios, likear posts y comentarios. Trabajo en equipo, junto a un compañero. Manejo de versiones con GitHub y pull request."
+            "description":"Desarrollamos un blog utilizando MERN, donde los usuarios pueden crear perfiles, seguir a otros usuarios, dar 'like' a publicaciones y comentarios. Trabajamos en equipo, junto a un compañero, gestionando las versiones con GitHub y pull requests."
         },
         {
             "description":"Proyecto personal para creacion de usuarios a traves de diferentes estrategias de passport. Los usuarios pueden iniciar sesion a traves de Google, Twitter (X) y GitHub."
         },
         {
-            "description":"Aplicacion con React. Proyecto personal en donde realizo manejo de API. Primero busco la imagen del gato en la primer API, y renderizo la imagen junto a las primeras 3 palabras de la descripcion de la segunda API. "
+            "description":"Desarrollé una aplicación con React como proyecto personal, donde gestiono una API. En primer lugar, obtengo la imagen de un gato de la primera API y la muestro junto con las tres primeras palabras de la descripción obtenida de la segunda API."
         },
         {
             "description":"Trabajo de una card responsive clasica hecha con HTML, CSS y Bootstrap."

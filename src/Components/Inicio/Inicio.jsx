@@ -15,7 +15,7 @@ const Inicio = () => {
         <>
         <div className="d-flex justify-content-between height fondo ancho ">
             <div id="inicio" className='d-flex flex-column justify-content-center text-center'>
-                <h1 className="titleBrown pb-2">Nicolas Lopez</h1>
+                <h1 className="titleBrown pb-2">Nicolás López</h1>
                 <p className='gris mx-4 strong pb-2'>{t("inicio.title")}</p>
                 <div className='d-flex justify-content-center'>
                     <a href="https://github.com/NicoLopezBjj" target='_blank' className='iconoHover'>
