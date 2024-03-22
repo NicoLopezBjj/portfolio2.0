@@ -25,7 +25,7 @@
             "description":"Desarrollamos un eCommerce en equipo, utilizando Node.js para el backend y EJS como motor de plantillas. Creamos la base de datos desde cero con MongoDB y Mongoose. Implementamos el CRUD de usuarios con Passport y Passport-local. Para el control de versiones, empleamos Git y GitHub."
         },
         {
-            "description": "Desarrollamos una aplicación de películas en equipo utilizando el paquete MERN. Utilizamos una API para consumir los datos de las películas y MongoDB para gestionar los usuarios y los perfiles que cada uno puede crear dentro de la aplicación. Trabajamos en equipo, gestionando las versiones con GitHub, creando pull requests y corrigiendo código entre los participantes del proyecto."   
+            "description": "Desarrollamos una aplicación de películas en equipo utilizando el paquete MERN. Utilizamos una API para consumir los datos de las películas y MongoDB para gestionar los usuarios y los perfiles que cada uno puede crear dentro de la aplicación. Gestion de versiones con GitHub, pull requests y optimización de código con el equipo."   
         },
         {
             "description":"Desarrollamos un blog utilizando MERN, donde los usuarios pueden crear perfiles, seguir a otros usuarios, dar 'like' a publicaciones y comentarios. Trabajamos en equipo, junto a un compañero, gestionando las versiones con GitHub y pull requests."

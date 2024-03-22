@@ -93,14 +93,14 @@ const settings = {
         {/* <Slider {...settings} */}
          <div className='mt-5 d-flex flex-column w-60 p-3'>
             {proyectos.map((proyecto, index) => (
-                    <div key={index} className='d-flex col-12 proyecto imgHover tamaño m-2 w-100'>
+                    <div key={index} className='d-flex col-12 projectResponsive proyecto imgHover tamaño m-2 w-100'>
                             <img className='img-fluid img p-1' src={proyecto.image} alt="" />
                         <div className='d-flex flex-column align-items-center'>
                             <div className='d-flex justify-content-between p-2 w-100'>
-                                    <h5 className='p-2'>{proyecto.title}</h5>
+                                    <h3 className='p-2'>{proyecto.title}</h3>
                                 <div className='d-flex justify-content-between sizeLink'>
-                                    <a href={proyecto.repo}><i class="bi bi-github black p-2"></i></a>                                    
-                                    <a href={proyecto.deploy}><i class="bi bi-box-arrow-up-right black p-2"></i></a>
+                                    <a href={proyecto.repo}><i class="bi bi-github black p-2 iconoHover newIcon"></i></a>                                    
+                                    <a href={proyecto.deploy}><i class="bi bi-box-arrow-up-right black p-2 newIcon iconoHover"></i></a>
                                 </div>
                             </div>
                             <div className='d-flex align-items-center text-justify p-2'>

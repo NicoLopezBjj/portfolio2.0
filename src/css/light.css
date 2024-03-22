@@ -103,9 +103,9 @@ nav{
     font-size: xx-large;
 }
 
-.iconoHover{
+/* .iconoHover{
     transform-origin: center center;
-}
+} */
 
 .iconoHover:hover {
     transform:scale(1.08);
@@ -113,14 +113,7 @@ nav{
     color: #A4581B !important;
 }
 
-@media(min-width:760px){
-    .fontSize{
-        font-size: 4rem;
-    }
-    .fontSizeB{
-        font-size: 2rem;
-    }
-}
+
 
 /*   ******  SOBRE MI *******    */
 
@@ -290,8 +283,38 @@ nav{
     height: 10rem;
 }
 
+/* ********* MEDIAQUERIES *********** */
+
 @media(max-width:760px){
     .formulario{
         width: 20rem;
+    }
+}
+
+@media(min-width:760px) {
+    .fontSize {
+        font-size: 4rem;
+    }
+
+    .fontSizeB {
+        font-size: 2rem;
+    }
+}
+
+@media(max-width:800px){
+    .projectResponsive{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .heroResponsive{
+        display: flex;
+        flex-direction: column;
+        height: auto;
+        padding: 30px;
+    }
+    .perfilResponsive{
+        padding: 5px;
+        margin-top: 20px;
     }
 }
